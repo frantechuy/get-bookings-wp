@@ -1,4 +1,4 @@
-﻿=== GetBookingsWP - Appointments Booking Calendar Plugin For WordPress===
+﻿=== GetBookingsWP - Appointments Booking Calendar Plugin For WordPress ===
 Contributors: IstmoPlugins
 Tags: appointments, availability, availability calendar, bookings, meetings, services, zoom, meetings
 Requires at least: 3.0.1
@@ -9,46 +9,48 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Powerful Booking Plugin with amazing dashboard to manage all of your appointments & bookings online.
 
-== Description == 
+== Description ==
 
-<a href='https://getbookingswp.com/'>GetBookingsWP</a> is a simple yet powerful booking plugin for scheduling appointments on your website via Stripe & PayPal.
+GetBookingsWP is a simple yet powerful booking plugin for scheduling appointments on your website via Stripe & PayPal.
 
-The plugin allows your visitors to book services and other appointments in a few clicks.  The public booking form is clear and simple.
+The plugin allows your visitors to book services and other appointments in a few clicks. The public booking form is clear and simple.
 
 You will be able to manage appointment scheduling, customers, events, check your business performance, and accept payments online.
 
-Simply show availability and <a href='https://getbookingswp.com/'>receive bookings</a> for your services on your website.
+Simply show availability and receive bookings for your services on your website.
 
+Website | Addons | Documentation | Support
 
-[Website](https://getbookingswp.com/) | [Addons](https://getbookingswp.com/pricing/) | [Documentation](https://doc.getbookingswp.com/documentation/) | [Support](https://support.getbookingswp.com/submit-a-request-2/)
-
-<h3>ALL IN ONE APPOINTMENT BOOKING PLUGIN FOR WORDPRESS </h3>
+ALL IN ONE APPOINTMENT BOOKING PLUGIN FOR WORDPRESS
 Appointment booking calendar for personal coaches, teachers, therapists and service professionals of all kind. Get booked 24/7 with the most intuitive booking form.
 
-<h3>SIMPLIFY YOUR BOOKING PROCESS </h3>
+SIMPLIFY YOUR BOOKING PROCESS
 
 [youtube https://youtu.be/CtRZgCd1Ny8?si=17YFWeIlTDNk3cNL]
 
-Our user friendly booking form gives your clients a quick overview of your availability, making the booking process a breeze. <strong><a href='https://demo.getbookingswp.com/basic-booking-with-drop-down/'>Quick 1-2-3 booking process</a></strong>. 
+Our user friendly booking form gives your clients a quick overview of your availability, making the booking process a breeze. Quick 1-2-3 booking process.
 
 Get Bookings WP WordPress Booking Plugin is an excellent solution for small companies and individuals, managers and event organizers. This appointment and event scheduler WordPress plugin gives your clients a comfortable and user-friendly experience. In addition, all front-end and back-end elements were designed mobile friendly, and the admin and customer interfaces work perfectly across various devices.
 
 Get Bookings WP WordPress Booking Plugin displays services and events in a perfectly organized booking calendar, enabling your visitors and clients to find the most convenient time frame for their appointment or to reserve their spot for the upcoming event.
 
-<h3>ONLINE SCHEDULING PLUGIN FOR:</h3>
+ONLINE SCHEDULING PLUGIN FOR:
 
 All kinds of businesses and individuals who depend on stable appointment booking, service booking, or event scheduling on their WordPress websites can entirely trust on Get Bookings WP appointment and event booking system.
 
-<ul>
-<li><strong>Salon &amp; Beauty</strong> (hair salons, nail salons, cosmetology centers, tanning studios, barbershops)</li>
-<li><strong>Health and wellness</strong> (wellness, spa &amp; massage, aromatherapy, baths)</li>
-<li><strong>Medicine</strong> (clinics, doctors, dentists, medical centers)</li>
-<li><strong>Education</strong> (education centers, tutors, language schools, private lessons)</li>
-<li><strong>Fitness &amp; Gyms</strong> (yoga classes, personal trainers, health clubs, fitness centers, dance instructors)</li>
-<li><strong>Professional services</strong> (coaches, consultants, lawyers, photographers, consulting psychologist, cleaning services)</li>
-<li>or any <strong>other services</strong> which can be scheduled and reserved <strong>online</strong> using the booking system.</li>
-</ul>
+Salon & Beauty (hair salons, nail salons, cosmetology centers, tanning studios, barbershops)
 
+Health and wellness (wellness, spa & massage, aromatherapy, baths)
+
+Medicine (clinics, doctors, dentists, medical centers)
+
+Education (education centers, tutors, language schools, private lessons)
+
+Fitness & Gyms (yoga classes, personal trainers, health clubs, fitness centers, dance instructors)
+
+Professional services (coaches, consultants, lawyers, photographers, consulting psychologist, cleaning services)
+
+or any other services which can be scheduled and reserved online using the booking system.
 
 <h3>CHECK OUT THE DEMO</h3>
 
