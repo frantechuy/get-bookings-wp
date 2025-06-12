@@ -1,0 +1,26 @@
+/*Admin - Main*/
+
+
+#loading-animation{display:none}
+#getbwp-sync-results{display:none}
+
+#getbwp-validation-results{display:none}
+.getbooginswp-sect h3{ margin-left:0px}
+.getbooginswp-sect h3{ font-size:20px;}
+
+.getbooginswp-error{ margin-bottom:10px;}
+
+.getbooginswp-btn-red{ background: #F00 !important;  color:#FFF !important}
+
+/*users module*/
+.getbwp-users-membership-edition {  margin:10px 0px 10px 0px; padding-left:15px;}
+
+/**/
+
+
+.getbwp-top-noti-admin {  margin:10px 0px 10px 0px}
+
+.getbwp-frame-impo{ background:#F2F2F2}
+
+.getbooginswp-rounded {-moz-border-radius: 5px; border-radius:5px;}
+.getbooginswp-sect { background:#FFF; position:relative; clear:both; width:98%; margin-top:20px; padding:20px 10px 10px 10px; height:auto !important}

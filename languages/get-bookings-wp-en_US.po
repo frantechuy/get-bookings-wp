@@ -1,0 +1,4107 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2022-09-19 11:25-0300\n"
+"PO-Revision-Date: 2022-09-19 11:25-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: get-bookings-wp;_e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: js\n"
+"X-Poedit-SearchPathExcluded-1: admin/scripts\n"
+
+#: addons/maintenance/admin/admin.php:112
+#: addons/maintenance/admin/admin.php:148
+#: addons/maintenance/admin/admin.php:155
+#: addons/maintenance/admin/admin.php:215
+msgid "Maintenance"
+msgstr ""
+
+#: addons/maintenance/admin/admin.php:144
+#, php-format
+msgid "Maintenance %s"
+msgstr ""
+
+#: addons/maintenance/admin/admin.php:153 classes/admin.php:512
+#, php-format
+msgid "%d  pending bookings"
+msgstr ""
+
+#: addons/maintenance/admin/panels/manage.php:12
+msgid "Appointments without a service assigned"
+msgstr ""
+
+#: addons/maintenance/admin/panels/manage.php:14
+msgid ""
+"This feature will help you to delete appointments without a service "
+"assigned. This happens when you delete a service that’s used by some "
+"appointment or client. Although, the plugin control this from happening, "
+"sometimes the service is deleted directly from the database causing "
+"inconsistences. "
+msgstr ""
+
+#: addons/maintenance/admin/panels/manage.php:22
+#: addons/maintenance/admin/panels/manage.php:131
+msgid "Some appointment(s) are linked to a non-existent service."
+msgstr ""
+
+#: addons/maintenance/admin/panels/manage.php:31
+#: addons/maintenance/admin/panels/manage.php:139
+#: admin/tabs/appointments.php:202 admin/tabs/orders.php:148
+#: classes/appointment.php:1017
+msgid "#"
+msgstr ""
+
+#: addons/maintenance/admin/panels/manage.php:33
+#: addons/maintenance/admin/panels/manage.php:141
+#: admin/tabs/appointments.php:205 admin/tabs/main.php:151
+#: admin/tabs/orders.php:150 classes/appointment.php:1018
+#: classes/getbookingswp.class.php:2185 classes/order.php:799
+msgid "Date"
+msgstr ""
+
+#: addons/maintenance/admin/panels/manage.php:35
+#: addons/maintenance/admin/panels/manage.php:143
+#: admin/tabs/appointments.php:213 admin/tabs/main.php:159
+#: admin/tabs/orders.php:152 admin/templates/new_appointment.php:35
+msgid "Client"
+msgstr ""
+
+#: addons/maintenance/admin/panels/manage.php:36
+#: addons/maintenance/admin/panels/manage.php:144
+#: admin/tabs/appointments.php:214 admin/tabs/main.php:160
+#: classes/getbookingswp.class.php:791 classes/getbookingswp.class.php:824
+msgid "Phone Number"
+msgstr ""
+
+#: addons/maintenance/admin/panels/manage.php:37
+#: addons/maintenance/admin/panels/manage.php:145
+#: admin/tabs/appointments.php:215 admin/tabs/main.php:161
+msgid "Provider"
+msgstr ""
+
+#: addons/maintenance/admin/panels/manage.php:38
+#: admin/tabs/appointments.php:216 admin/tabs/main.php:162
+#: admin/tabs/orders.php:153 classes/getbookingswp.class.php:2113
+#: classes/getbookingswp.class.php:2181 classes/register.php:841
+msgid "Service"
+msgstr ""
+
+#: addons/maintenance/admin/panels/manage.php:39
+#: addons/maintenance/admin/panels/manage.php:147
+#: admin/tabs/appointments.php:217 admin/tabs/main.php:163
+msgid "At"
+msgstr ""
+
+#: addons/maintenance/admin/panels/manage.php:42
+#: addons/maintenance/admin/panels/manage.php:150
+#: admin/tabs/appointments.php:220 admin/tabs/main.php:166
+#: admin/tabs/orders.php:157 admin/templates/edit_appointment.php:67
+#: classes/appointment.php:1021 classes/order.php:801
+msgid "Status"
+msgstr ""
+
+#: addons/maintenance/admin/panels/manage.php:93
+#: addons/maintenance/admin/panels/manage.php:201
+msgid "Fix Inconsistency"
+msgstr ""
+
+#: addons/maintenance/admin/panels/manage.php:102
+msgid ""
+"Don't worry. Everything looks great!. Al the appointments are linked to a "
+"service."
+msgstr ""
+
+#: addons/maintenance/admin/panels/manage.php:119
+msgid "Appointments without a Staff member assigned"
+msgstr ""
+
+#: addons/maintenance/admin/panels/manage.php:121
+msgid ""
+"Here you will see a list of appointments that are assigned to staff members "
+"that were deleted manually or by using the WP Users Link. If this happens "
+"you can use this feature to fix them."
+msgstr ""
+
+#: addons/maintenance/admin/panels/manage.php:210
+msgid ""
+"Don't worry. Everything looks great!. Al the appointments are linked to an "
+"existen Staff provider."
+msgstr ""
+
+#: addons/maintenance/admin/panels/manage.php:223 admin/tabs/gateway.php:450
+#: admin/tabs/mail.php:873 admin/tabs/settings.php:589
+#: admin/tabs/settings.php:689 admin/tabs/settings.php:711
+#: admin/tabs/settings.php:761 admin/tabs/settings.php:826
+#: admin/tabs/settings.php:891 admin/tabs/settings.php:942
+#: classes/service.php:3145 classes/user.php:1352 classes/user.php:1438
+msgid "Save Changes"
+msgstr ""
+
+#: admin/tabs/appointments.php:62 classes/admin.php:58 classes/admin.php:531
+msgid "Appointments"
+msgstr ""
+
+#: admin/tabs/appointments.php:65
+msgid "Add New Appointment "
+msgstr ""
+
+#: admin/tabs/appointments.php:75 admin/tabs/fields.php:244
+#: admin/tabs/orders.php:46 classes/admin.php:1573
+msgid "Success "
+msgstr ""
+
+#: admin/tabs/appointments.php:82 admin/tabs/main.php:84
+#: classes/appointment.php:825 classes/appointment.php:1006
+#: classes/appointment.php:1702 classes/appointment.php:1759
+msgid "Pending"
+msgstr ""
+
+#: admin/tabs/appointments.php:83 classes/appointment.php:1706
+#: classes/appointment.php:1767
+msgid "Cancelled"
+msgstr ""
+
+#: admin/tabs/appointments.php:85 classes/appointment.php:1708
+#: classes/appointment.php:1771
+msgid "No-Show"
+msgstr ""
+
+#: admin/tabs/appointments.php:87 classes/order.php:798
+msgid "Total"
+msgstr ""
+
+#: admin/tabs/appointments.php:97
+msgid "All Months"
+msgstr ""
+
+#: admin/tabs/appointments.php:111
+msgid "All Days"
+msgstr ""
+
+#: admin/tabs/appointments.php:125
+msgid "All Years"
+msgstr ""
+
+#: admin/tabs/appointments.php:141
+msgid "All Locations"
+msgstr ""
+
+#: admin/tabs/appointments.php:159 admin/tabs/appointments.php:160
+#: admin/tabs/appointments.php:161 admin/tabs/appointments.php:162
+#: admin/tabs/appointments.php:163 admin/tabs/appointments.php:165
+#: admin/tabs/appointments.php:167 admin/tabs/appointments.php:168
+#: admin/tabs/appointments.php:170
+msgid "Per Page"
+msgstr ""
+
+#: admin/tabs/appointments.php:174 admin/tabs/calendar.php:60
+#: admin/tabs/orders.php:111
+msgid "Filter"
+msgstr ""
+
+#: admin/tabs/appointments.php:209 admin/tabs/main.php:155
+msgid "Location"
+msgstr ""
+
+#: admin/tabs/appointments.php:221 admin/tabs/main.php:167
+#: classes/appointment.php:1023 classes/service.php:3498
+msgid "Actions"
+msgstr ""
+
+#: admin/tabs/appointments.php:274
+msgid "See Details"
+msgstr ""
+
+#: admin/tabs/appointments.php:291 admin/tabs/main.php:238
+#: classes/appointment.php:1048 classes/service.php:3447
+msgid "Edit"
+msgstr ""
+
+#: admin/tabs/appointments.php:291 classes/appointment.php:1047
+#: classes/service.php:3447 classes/service.php:3527 classes/user.php:667
+msgid "Delete"
+msgstr ""
+
+#: admin/tabs/appointments.php:300 admin/tabs/main.php:247
+msgid "There are no appointments yet."
+msgstr ""
+
+#: admin/tabs/appointments.php:311 admin/tabs/appointments.php:343
+#: admin/tabs/calendar.php:103 admin/tabs/calendar.php:124
+#: admin/tabs/fields.php:274 admin/tabs/licence.php:49 admin/tabs/main.php:285
+#: admin/tabs/main.php:306 admin/tabs/services.php:49
+#: admin/tabs/settings.php:711 admin/tabs/users.php:147
+#: admin/tabs/users.php:157 classes/admin.php:309
+#: classes/getbookingswp.class.php:1030 classes/getbookingswp.class.php:1063
+#: classes/getbookingswp.class.php:1067 classes/service.php:3145
+#: classes/user.php:899 classes/user.php:906 templates/appointment.php:50
+msgid "Please wait ..."
+msgstr ""
+
+#: admin/tabs/appointments.php:314 admin/tabs/calendar.php:89
+#: admin/tabs/main.php:269
+msgid "Create New Appointment"
+msgstr ""
+
+#: admin/tabs/appointments.php:315 admin/tabs/calendar.php:90
+#: admin/tabs/main.php:270
+msgid "Edit Appointment"
+msgstr ""
+
+#: admin/tabs/appointments.php:316 admin/tabs/calendar.php:91
+#: admin/tabs/main.php:271
+msgid "Appointment Created"
+msgstr ""
+
+#: admin/tabs/appointments.php:317 admin/tabs/calendar.php:92
+#: admin/tabs/main.php:272
+msgid "Add Payment"
+msgstr ""
+
+#: admin/tabs/appointments.php:318 admin/tabs/calendar.php:93
+#: admin/tabs/main.php:273
+msgid "Confirmation"
+msgstr ""
+
+#: admin/tabs/appointments.php:319 admin/tabs/calendar.php:94
+#: admin/tabs/main.php:274
+msgid "Add Note"
+msgstr ""
+
+#: admin/tabs/appointments.php:320 admin/tabs/calendar.php:95
+#: admin/tabs/main.php:275 classes/admin.php:290 classes/admin.php:312
+msgid "Pending Appointments"
+msgstr ""
+
+#: admin/tabs/appointments.php:321 admin/tabs/calendar.php:98
+#: admin/tabs/main.php:278
+msgid "Appointment Status"
+msgstr ""
+
+#: admin/tabs/appointments.php:323 admin/tabs/calendar.php:97
+#: admin/tabs/main.php:277
+msgid "Create New Client"
+msgstr ""
+
+#: admin/tabs/appointments.php:327 admin/tabs/calendar.php:109
+#: admin/tabs/main.php:291
+msgid "Please select a payment date."
+msgstr ""
+
+#: admin/tabs/appointments.php:328 admin/tabs/calendar.php:110
+#: admin/tabs/main.php:292
+msgid "Please input an amount"
+msgstr ""
+
+#: admin/tabs/appointments.php:329 admin/tabs/calendar.php:111
+#: admin/tabs/main.php:293
+msgid "Are you totally sure that you want to delete this payment?"
+msgstr ""
+
+#: admin/tabs/appointments.php:331 admin/tabs/calendar.php:113
+#: admin/tabs/main.php:295
+msgid "Please input a title."
+msgstr ""
+
+#: admin/tabs/appointments.php:332 admin/tabs/calendar.php:114
+#: admin/tabs/main.php:296
+msgid "Please input some text"
+msgstr ""
+
+#: admin/tabs/appointments.php:333 admin/tabs/calendar.php:115
+#: admin/tabs/main.php:297
+msgid "Are you totally sure that you want to delete this note?"
+msgstr ""
+
+#: admin/tabs/appointments.php:336 admin/tabs/calendar.php:117
+#: admin/tabs/main.php:299
+msgid "The appointment has been rescheduled."
+msgstr ""
+
+#: admin/tabs/appointments.php:337 admin/tabs/calendar.php:118
+#: admin/tabs/main.php:300
+msgid "The information has been updated."
+msgstr ""
+
+#: admin/tabs/appointments.php:339 admin/tabs/calendar.php:120
+#: admin/tabs/main.php:302 classes/service.php:732 classes/service.php:1032
+#: classes/service.php:1388 classes/service.php:1950
+msgid "Please select a date."
+msgstr ""
+
+#: admin/tabs/appointments.php:340 admin/tabs/calendar.php:121
+#: admin/tabs/main.php:303 classes/service.php:740 classes/service.php:1040
+#: classes/service.php:1396
+msgid "Please select a service."
+msgstr ""
+
+#: admin/tabs/appointments.php:341 admin/tabs/calendar.php:122
+#: admin/tabs/main.php:304
+msgid "Please select a time."
+msgstr ""
+
+#: admin/tabs/appointments.php:342 admin/tabs/calendar.php:123
+#: admin/tabs/main.php:305
+msgid "Please select a client."
+msgstr ""
+
+#: admin/tabs/calendar.php:41 admin/tabs/main.php:264
+msgid ""
+"Do you need more features or manage multiple locations, google calendar "
+"integration, SMS reminders, change legends & colors?"
+msgstr ""
+
+#: admin/tabs/fields.php:25
+msgid "Create Custom Fields"
+msgstr ""
+
+#: admin/tabs/fields.php:26
+msgid ""
+"Creating custom fields for your booking form is available only on pro "
+"versions"
+msgstr ""
+
+#: admin/tabs/fields.php:27
+msgid "CLICK HERE"
+msgstr ""
+
+#: admin/tabs/fields.php:27 admin/tabs/gateway.php:16
+msgid " to upgrade your plugin."
+msgstr ""
+
+#: admin/tabs/fields.php:34
+msgid "Fields Customizer"
+msgstr ""
+
+#: admin/tabs/fields.php:37
+msgid "Create and customize fields that displays on booking forms."
+msgstr ""
+
+#: admin/tabs/fields.php:42
+msgid "Fields have been restored"
+msgstr ""
+
+#: admin/tabs/fields.php:60
+msgid "Default Form"
+msgstr ""
+
+#: admin/tabs/fields.php:88
+msgid "Duplicate Current Form"
+msgstr ""
+
+#: admin/tabs/fields.php:94
+msgid "Add New Field"
+msgstr ""
+
+#: admin/tabs/fields.php:110
+msgid "Type"
+msgstr ""
+
+#: admin/tabs/fields.php:114
+msgid "Booking Form Field"
+msgstr ""
+
+#: admin/tabs/fields.php:117 classes/admin.php:1341
+msgid "Separator"
+msgstr ""
+
+#: admin/tabs/fields.php:120 classes/admin.php:1344
+msgid "You can create a separator or a usermeta (profile field)"
+msgstr ""
+
+#: admin/tabs/fields.php:125
+msgid "Editor / Input Type"
+msgstr ""
+
+#: admin/tabs/fields.php:134 classes/admin.php:1362
+msgid ""
+"When user edit profile, this field can be an input (text, textarea, image "
+"upload, etc.)"
+msgstr ""
+
+#: admin/tabs/fields.php:139
+msgid "New Custom Meta Key"
+msgstr ""
+
+#: admin/tabs/fields.php:144 classes/admin.php:1372
+msgid ""
+"Enter a custom meta key for this profile field if do not want to use a "
+"predefined meta field above. It is recommended to only use alphanumeric "
+"characters and underscores, for example my_custom_meta is a proper meta key."
+msgstr ""
+
+#: admin/tabs/fields.php:150
+msgid "Label"
+msgstr ""
+
+#: admin/tabs/fields.php:156 classes/admin.php:1383
+msgid ""
+"Enter the label / name of this field as you want it to appear in front-end "
+"(Profile edit/view)"
+msgstr ""
+
+#: admin/tabs/fields.php:161 classes/admin.php:1392
+msgid "Tooltip Text"
+msgstr ""
+
+#: admin/tabs/fields.php:167 classes/admin.php:1397
+msgid "A tooltip text can be useful for social buttons on profile header."
+msgstr ""
+
+#: admin/tabs/fields.php:173 classes/admin.php:1402
+msgid "Help Text"
+msgstr ""
+
+#: admin/tabs/fields.php:176 classes/admin.php:1404
+msgid "A help text can be useful for provide information about the field."
+msgstr ""
+
+#: admin/tabs/fields.php:178 classes/admin.php:1406
+msgid "Show this help text under the profile field."
+msgstr ""
+
+#: admin/tabs/fields.php:186 classes/admin.php:1419
+msgid "User can edit"
+msgstr ""
+
+#: admin/tabs/fields.php:190 admin/tabs/fields.php:212
+#: admin/tabs/fields.php:227 admin/tabs/gateway.php:269
+#: admin/tabs/settings.php:539 admin/tabs/settings.php:553
+#: classes/admin.php:1423 classes/admin.php:1443 classes/admin.php:1463
+#: classes/admin.php:1500
+msgid "Yes"
+msgstr ""
+
+#: admin/tabs/fields.php:193 admin/tabs/fields.php:209
+#: admin/tabs/fields.php:224 admin/tabs/gateway.php:268
+#: admin/tabs/settings.php:538 admin/tabs/settings.php:552
+#: admin/tabs/settings.php:747 classes/admin.php:1426 classes/admin.php:1440
+#: classes/admin.php:1460 classes/admin.php:1497
+msgid "No"
+msgstr ""
+
+#: admin/tabs/fields.php:196 classes/admin.php:1429
+msgid "Users can edit this profile field or not."
+msgstr ""
+
+#: admin/tabs/fields.php:205
+msgid "This field is required"
+msgstr ""
+
+#: admin/tabs/fields.php:215 classes/admin.php:1466
+msgid ""
+"Selecting yes will force user to provide a value for this field at "
+"registration and edit profile. Registration or profile edits will not be "
+"accepted if this field is left empty."
+msgstr ""
+
+#: admin/tabs/fields.php:220
+msgid "Show on Booking form"
+msgstr ""
+
+#: admin/tabs/fields.php:230
+msgid ""
+"Show this field on the booking form? If you choose no, this field will be "
+"shown on edit profile only and not on the registration form. Most users "
+"prefer fewer fields when registering, so use this option with care."
+msgstr ""
+
+#: admin/tabs/fields.php:245
+msgid "Submit New Field"
+msgstr ""
+
+#: admin/tabs/fields.php:247 classes/admin.php:377 classes/admin.php:1579
+#: classes/user.php:2128 classes/user.php:2552
+msgid "Cancel"
+msgstr ""
+
+#: admin/tabs/fields.php:264
+msgid "Are you totally sure that you want to delete this field?"
+msgstr ""
+
+#: admin/tabs/fields.php:266
+msgid "Are you totally sure that you want to restore the default fields?"
+msgstr ""
+
+#: admin/tabs/fields.php:268
+msgid "Please input a name"
+msgstr ""
+
+#: admin/tabs/gateway.php:4
+msgid "Payment Gateways Settings"
+msgstr ""
+
+#: admin/tabs/gateway.php:14
+msgid "Online Payment Options"
+msgstr ""
+
+#: admin/tabs/gateway.php:15
+msgid "Stripe & Paypal features are available only on pro versions"
+msgstr ""
+
+#: admin/tabs/gateway.php:16
+msgid "CLICK HERE "
+msgstr ""
+
+#: admin/tabs/gateway.php:25
+msgid "Stripe Settings"
+msgstr ""
+
+#: admin/tabs/gateway.php:27
+msgid ""
+"Stripe is a payment gateway for mechants. If you don't have a Stripe "
+"account, you can <a href='https://stripe.com/'> sign up for one account "
+"here</a> "
+msgstr ""
+
+#: admin/tabs/gateway.php:29
+msgid ""
+"Here you can configure Stripe if you wish to accept credit card payments "
+"directly in your website. Find your Stripe API keys here <a href=\"https://"
+"dashboard.stripe.com/account/apikeys\">https://dashboard.stripe.com/account/"
+"apikeys</a>"
+msgstr ""
+
+#: admin/tabs/gateway.php:38
+msgid "Activate Stripe"
+msgstr ""
+
+#: admin/tabs/gateway.php:40 admin/tabs/gateway.php:41
+msgid "If checked, Stripe will be activated as payment method"
+msgstr ""
+
+#: admin/tabs/gateway.php:48
+msgid "Test Secret Key"
+msgstr ""
+
+#: admin/tabs/gateway.php:49 admin/tabs/gateway.php:50
+#: admin/tabs/gateway.php:57 admin/tabs/gateway.php:58
+#: admin/tabs/gateway.php:65 admin/tabs/gateway.php:66
+#: admin/tabs/gateway.php:73 admin/tabs/gateway.php:74
+msgid "You can get this on stripe.com"
+msgstr ""
+
+#: admin/tabs/gateway.php:56
+msgid "Test Publishable Key"
+msgstr ""
+
+#: admin/tabs/gateway.php:64
+msgid "Live Secret Key"
+msgstr ""
+
+#: admin/tabs/gateway.php:72
+msgid "Live Publishable Key"
+msgstr ""
+
+#: admin/tabs/gateway.php:81 admin/tabs/gateway.php:184
+#: admin/tabs/gateway.php:295
+msgid "Currency"
+msgstr ""
+
+#: admin/tabs/gateway.php:82 admin/tabs/gateway.php:83
+#: admin/tabs/gateway.php:185 admin/tabs/gateway.php:186
+#: admin/tabs/gateway.php:296 admin/tabs/gateway.php:297
+msgid "Please enter the currency, example USD."
+msgstr ""
+
+#: admin/tabs/gateway.php:89 admin/tabs/gateway.php:192
+#: admin/tabs/gateway.php:400
+msgid "Custom Message"
+msgstr ""
+
+#: admin/tabs/gateway.php:90 admin/tabs/gateway.php:91
+#: admin/tabs/gateway.php:193 admin/tabs/gateway.php:194
+#: admin/tabs/gateway.php:401 admin/tabs/gateway.php:402
+#: admin/tabs/settings.php:263 admin/tabs/settings.php:264
+msgid ""
+"Input here a custom message that will be displayed to the client once the "
+"booking has been confirmed at the front page."
+msgstr ""
+
+#: admin/tabs/gateway.php:97 admin/tabs/gateway.php:200
+#: admin/tabs/gateway.php:304 admin/tabs/gateway.php:410
+#: admin/tabs/settings.php:226
+msgid "Custom Success Page Redirect "
+msgstr ""
+
+#: admin/tabs/gateway.php:99 admin/tabs/gateway.php:100
+#: admin/tabs/gateway.php:202 admin/tabs/gateway.php:203
+#: admin/tabs/gateway.php:306 admin/tabs/gateway.php:307
+msgid ""
+"If checked, the users will be taken to this page once the payment has been "
+"confirmed"
+msgstr ""
+
+#: admin/tabs/gateway.php:107 admin/tabs/gateway.php:210
+#: admin/tabs/gateway.php:314 admin/tabs/gateway.php:420
+msgid "Success Page"
+msgstr ""
+
+#: admin/tabs/gateway.php:109 admin/tabs/gateway.php:110
+#: admin/tabs/gateway.php:316 admin/tabs/gateway.php:317
+msgid ""
+"Select the sucess page. The user will be taken to this page if the payment "
+"was approved by stripe."
+msgstr ""
+
+#: admin/tabs/gateway.php:117 admin/tabs/gateway.php:220
+#: admin/tabs/gateway.php:344
+msgid "Mode"
+msgstr ""
+
+#: admin/tabs/gateway.php:119 admin/tabs/gateway.php:222
+#: admin/tabs/gateway.php:346
+msgid "Production Mode"
+msgstr ""
+
+#: admin/tabs/gateway.php:120 admin/tabs/gateway.php:223
+#: admin/tabs/gateway.php:347
+msgid "Test Mode (Sandbox)"
+msgstr ""
+
+#: admin/tabs/gateway.php:123 admin/tabs/gateway.php:124
+#: admin/tabs/gateway.php:226 admin/tabs/gateway.php:227
+#: admin/tabs/gateway.php:350 admin/tabs/gateway.php:351
+#: admin/tabs/settings.php:706 admin/tabs/settings.php:838
+msgid "."
+msgstr ""
+
+#: admin/tabs/gateway.php:143
+msgid "Authorize.NET AIM Settings"
+msgstr ""
+
+#: admin/tabs/gateway.php:145 admin/tabs/gateway.php:147
+msgid " "
+msgstr ""
+
+#: admin/tabs/gateway.php:156
+msgid "Activate Authorize"
+msgstr ""
+
+#: admin/tabs/gateway.php:158 admin/tabs/gateway.php:159
+msgid "If checked, Authorize will be activated as payment method"
+msgstr ""
+
+#: admin/tabs/gateway.php:167
+msgid "API Login ID"
+msgstr ""
+
+#: admin/tabs/gateway.php:168 admin/tabs/gateway.php:169
+#: admin/tabs/gateway.php:176 admin/tabs/gateway.php:177
+msgid "You can get this on authorize.net"
+msgstr ""
+
+#: admin/tabs/gateway.php:175
+msgid "API Transaction Key"
+msgstr ""
+
+#: admin/tabs/gateway.php:212
+msgid ""
+"Select the sucess page. The user will be taken to this page if the payment "
+"was approved by Authorize.net "
+msgstr ""
+
+#: admin/tabs/gateway.php:213
+msgid ""
+"Select the sucess page. The user will be taken to this page if the payment "
+"was approved by Authorize.net"
+msgstr ""
+
+#: admin/tabs/gateway.php:245
+msgid "PayPal"
+msgstr ""
+
+#: admin/tabs/gateway.php:247
+msgid "Here you can configure PayPal if you wish to accept paid registrations"
+msgstr ""
+
+#: admin/tabs/gateway.php:248
+msgid ""
+"Please note: You have to set a right currency <a href='https://developer."
+"paypal.com/docs/classic/api/currency_codes/' target='_blank'> check "
+"supported currencies here </a> "
+msgstr ""
+
+#: admin/tabs/gateway.php:257
+msgid "Activate PayPal"
+msgstr ""
+
+#: admin/tabs/gateway.php:259 admin/tabs/gateway.php:260
+msgid "If checked, PayPal will be activated as payment method"
+msgstr ""
+
+#: admin/tabs/gateway.php:266
+msgid "The Paypal IPN response will be sent to the admin"
+msgstr ""
+
+#: admin/tabs/gateway.php:272 admin/tabs/gateway.php:273
+msgid ""
+"If 'yes' the admin will receive the whole Paypal IPN response. This helps to "
+"troubleshoot issues."
+msgstr ""
+
+#: admin/tabs/gateway.php:279
+msgid "PayPal Email Address"
+msgstr ""
+
+#: admin/tabs/gateway.php:280 admin/tabs/gateway.php:281
+msgid "Enter email address associated to your PayPal account."
+msgstr ""
+
+#: admin/tabs/gateway.php:287
+msgid "Paypal Sandbox Email Address"
+msgstr ""
+
+#: admin/tabs/gateway.php:288 admin/tabs/gateway.php:289
+msgid "This is not used for production, you can use this email for testing."
+msgstr ""
+
+#: admin/tabs/gateway.php:324
+msgid "Custom Cancellation Page Redirect "
+msgstr ""
+
+#: admin/tabs/gateway.php:326 admin/tabs/gateway.php:327
+msgid ""
+"If checked, the users will be taken to this page if the payment is cancelled "
+"at PayPal website"
+msgstr ""
+
+#: admin/tabs/gateway.php:334 admin/tabs/settings.php:279
+msgid "Cancellation Page"
+msgstr ""
+
+#: admin/tabs/gateway.php:336 admin/tabs/gateway.php:337
+msgid ""
+"Select the cancellation page. The user will be taken to this page if the "
+"payment is cancelled at PayPal Website"
+msgstr ""
+
+#: admin/tabs/gateway.php:370
+msgid "Bank Deposit/Cash Other"
+msgstr ""
+
+#: admin/tabs/gateway.php:372
+msgid ""
+"Here you can configure the information that will be sent to the client. This "
+"could be your bank account details."
+msgstr ""
+
+#: admin/tabs/gateway.php:381
+msgid "Activate Bank Deposit"
+msgstr ""
+
+#: admin/tabs/gateway.php:383 admin/tabs/gateway.php:384
+msgid "If checked, Bank Payment Deposit will be activated as payment method"
+msgstr ""
+
+#: admin/tabs/gateway.php:391
+msgid "Custom Label"
+msgstr ""
+
+#: admin/tabs/gateway.php:392 admin/tabs/gateway.php:393
+msgid "Example: Bank Deposit , Cash, Wire etc."
+msgstr ""
+
+#: admin/tabs/gateway.php:412 admin/tabs/gateway.php:413
+#: admin/tabs/settings.php:229
+msgid "If checked, the users will be taken to this page "
+msgstr ""
+
+#: admin/tabs/gateway.php:422 admin/tabs/gateway.php:423
+msgid ""
+"Select the sucess page. The user will be taken to this page on purchase "
+"confirmation"
+msgstr ""
+
+#: admin/tabs/gateway.php:434
+msgid "Default Status for Local Payments"
+msgstr ""
+
+#: admin/tabs/gateway.php:436
+msgid ""
+"Set the default status an appointment will have when using local payment "
+"method. You won't have to approve the appointments manually, they will get "
+"approved automatically."
+msgstr ""
+
+#: admin/tabs/gateway.php:437
+msgid ""
+"et the default status an appointment will have when using local payment "
+"method."
+msgstr ""
+
+#: admin/tabs/help.php:8
+msgid "Documentation and User Guide"
+msgstr ""
+
+#: admin/tabs/help.php:12
+msgid ""
+"Here there are some useful shortocodes and tutorials that will help you to "
+"start receiving online appointments in minutes."
+msgstr ""
+
+#: admin/tabs/help.php:19
+msgid "Getting Started"
+msgstr ""
+
+#: admin/tabs/help.php:23
+msgid "Getting Started Guide"
+msgstr ""
+
+#: admin/tabs/help.php:25
+msgid "Adding or Deleting Staff Members"
+msgstr ""
+
+#: admin/tabs/help.php:27
+msgid "Adding New Services and Categories"
+msgstr ""
+
+#: admin/tabs/help.php:29
+msgid "Activating the Front-end Booking Form"
+msgstr ""
+
+#: admin/tabs/help.php:40
+msgid "FAQs"
+msgstr ""
+
+#: admin/tabs/help.php:45
+msgid "How To Create Custom Fields?"
+msgstr ""
+
+#: admin/tabs/help.php:47
+msgid "How to Create an Appointment as Administrator?"
+msgstr ""
+
+#: admin/tabs/help.php:48
+msgid "How to Reschedule Appointments?"
+msgstr ""
+
+#: admin/tabs/help.php:64
+msgid "Troubleshooting"
+msgstr ""
+
+#: admin/tabs/help.php:69
+msgid "Time slots are not available"
+msgstr ""
+
+#: admin/tabs/help.php:71
+msgid "User Registration is Currently Not Allowed"
+msgstr ""
+
+#: admin/tabs/help.php:73
+msgid "I can't access to my WordPress Site or WP Admin"
+msgstr ""
+
+#: admin/tabs/help.php:75
+msgid "Troubleshooting Theme & Plugin Conflicts"
+msgstr ""
+
+#: admin/tabs/help.php:77
+msgid "WordPress Is not Sending Emails Issue"
+msgstr ""
+
+#: admin/tabs/help.php:79
+msgid "Google Calendar Missing Timezone Definition"
+msgstr ""
+
+#: admin/tabs/help.php:88
+msgid "Staff & Client Account"
+msgstr ""
+
+#: admin/tabs/help.php:88
+msgid "Premium Only"
+msgstr ""
+
+#: admin/tabs/help.php:92
+msgid "Getting Started With the Staff & Client Modules"
+msgstr ""
+
+#: admin/tabs/help.php:94
+msgid "Send Account Details To Your Staff Members"
+msgstr ""
+
+#: admin/tabs/help.php:96
+msgid "How To Display the Staff List?"
+msgstr ""
+
+#: admin/tabs/help.php:110 classes/admin.php:541
+msgid "Payment Gateways"
+msgstr ""
+
+#: admin/tabs/help.php:114
+msgid "PayPal Setup"
+msgstr ""
+
+#: admin/tabs/help.php:115
+msgid "Stripe Setup"
+msgstr ""
+
+#: admin/tabs/help.php:126 admin/tabs/settings.php:24 classes/user.php:1042
+msgid "Google Calendar"
+msgstr ""
+
+#: admin/tabs/help.php:130
+msgid "Google Calendar Integration (Premium)"
+msgstr ""
+
+#: admin/tabs/help.php:145
+msgid "Front-end booking form"
+msgstr ""
+
+#: admin/tabs/help.php:152
+msgid " Contact Us"
+msgstr ""
+
+#: admin/tabs/help.php:156
+msgid "Contact Us"
+msgstr ""
+
+#: admin/tabs/licence.php:14
+msgid "Recommendation!"
+msgstr ""
+
+#: admin/tabs/licence.php:15
+msgid ""
+"You're running either Professional or Enterprise version which doesn't "
+"require a serial number to each one of your websites. However, if you don't "
+"create a serial number for this domain :"
+msgstr ""
+
+#: admin/tabs/licence.php:15
+msgid ""
+" you won't be able to update the plugin automatically through the WP Update "
+"Section. So.. we highly recommend you creating a serial number for your "
+"domain."
+msgstr ""
+
+#: admin/tabs/licence.php:24
+msgid "Congratulations!"
+msgstr ""
+
+#: admin/tabs/licence.php:25
+msgid "Your copy has been validated!"
+msgstr ""
+
+#: admin/tabs/licence.php:26
+msgid "You should start receiving notices every time the plugin is updated."
+msgstr ""
+
+#: admin/tabs/licence.php:37
+msgid "Validate your copy"
+msgstr ""
+
+#: admin/tabs/licence.php:38
+msgid ""
+"Please fill out the form below with the serial number generated when you "
+"registered your domain through your account at GetBookingsWP.com"
+msgstr ""
+
+#: admin/tabs/licence.php:40
+msgid "INPUT YOUR SERIAL KEY"
+msgstr ""
+
+#: admin/tabs/licence.php:41
+msgid "type your serial number here"
+msgstr ""
+
+#: admin/tabs/licence.php:45
+msgid "CLICK HERE TO VALIDATE YOUR COPY"
+msgstr ""
+
+#: admin/tabs/licence.php:51
+msgid "Learn how to create a serial number"
+msgstr ""
+
+#: admin/tabs/licence.php:52
+msgid "LOGIN TO YOUR ACCOUNT"
+msgstr ""
+
+#: admin/tabs/licence.php:62
+msgid "Validating your Plugin"
+msgstr ""
+
+#: admin/tabs/licence.php:63
+msgid ""
+"In order to validate the plugin you will need to purchase a licence on "
+"GetBookingsWP.com"
+msgstr ""
+
+#: admin/tabs/licence.php:64
+msgid "Click here to purchase a serial number"
+msgstr ""
+
+#: admin/tabs/mail.php:4
+msgid "Advanced Email Options"
+msgstr ""
+
+#: admin/tabs/mail.php:13
+msgid ""
+"Here you can control how Get Bookings WP will send the notification to your "
+"users."
+msgstr ""
+
+#: admin/tabs/mail.php:17
+msgid "Privacy"
+msgstr ""
+
+#: admin/tabs/mail.php:28
+msgid "Send Email Notifications to Admin?:"
+msgstr ""
+
+#: admin/tabs/mail.php:30 admin/tabs/mail.php:43 admin/tabs/mail.php:57
+#: admin/tabs/settings.php:121 admin/tabs/settings.php:203
+#: admin/tabs/settings.php:215 admin/tabs/settings.php:397
+#: admin/tabs/settings.php:411 admin/tabs/settings.php:423
+#: admin/tabs/settings.php:435 admin/tabs/settings.php:469
+#: admin/tabs/settings.php:481 admin/tabs/settings.php:670
+#: classes/service.php:2942 classes/service.php:2949 classes/service.php:2959
+#: classes/user.php:833
+msgid "YES"
+msgstr ""
+
+#: admin/tabs/mail.php:31 admin/tabs/mail.php:44 admin/tabs/mail.php:58
+#: admin/tabs/settings.php:120 admin/tabs/settings.php:204
+#: admin/tabs/settings.php:216 admin/tabs/settings.php:398
+#: admin/tabs/settings.php:410 admin/tabs/settings.php:424
+#: admin/tabs/settings.php:436 admin/tabs/settings.php:470
+#: admin/tabs/settings.php:482 admin/tabs/settings.php:669
+#: classes/service.php:2941 classes/service.php:2948 classes/service.php:2958
+#: classes/user.php:834
+msgid "NO"
+msgstr ""
+
+#: admin/tabs/mail.php:34 admin/tabs/mail.php:35
+msgid ""
+"This allows you to block email notifications that are sent to the admin."
+msgstr ""
+
+#: admin/tabs/mail.php:41
+msgid "Send Email Notifications to Staff Members?:"
+msgstr ""
+
+#: admin/tabs/mail.php:47 admin/tabs/mail.php:48
+msgid ""
+"This allows you to block email notifications that are sent to the staff "
+"members."
+msgstr ""
+
+#: admin/tabs/mail.php:55
+msgid "Send Email Notifications to Clients?:"
+msgstr ""
+
+#: admin/tabs/mail.php:61 admin/tabs/mail.php:62
+msgid ""
+"This allows you to block email notifications that are sent to the clients."
+msgstr ""
+
+#: admin/tabs/mail.php:81
+msgid "Send From Name"
+msgstr ""
+
+#: admin/tabs/mail.php:82 admin/tabs/mail.php:83
+msgid "Enter the your name or company name here."
+msgstr ""
+
+#: admin/tabs/mail.php:89
+msgid "Send From Email"
+msgstr ""
+
+#: admin/tabs/mail.php:90 admin/tabs/mail.php:91
+msgid "Enter the email address to be used when sending emails."
+msgstr ""
+
+#: admin/tabs/mail.php:97
+msgid "Mailer:"
+msgstr ""
+
+#: admin/tabs/mail.php:99
+msgid "Use the PHP mail() function to send emails"
+msgstr ""
+
+#: admin/tabs/mail.php:100
+msgid "Send all Get Bookings WP emails via SMTP"
+msgstr ""
+
+#: admin/tabs/mail.php:101
+msgid "Send all Get Bookings WP emails via Mandrill"
+msgstr ""
+
+#: admin/tabs/mail.php:102
+msgid "Send all Get Bookings WP emails via Third-party plugin"
+msgstr ""
+
+#: admin/tabs/mail.php:106 admin/tabs/mail.php:107
+msgid ""
+"Specify which mailer method Get Bookings WP should use when sending emails."
+msgstr ""
+
+#: admin/tabs/mail.php:113
+msgid "Return Path"
+msgstr ""
+
+#: admin/tabs/mail.php:115 admin/tabs/mail.php:116
+msgid "Set the return-path to match the From Email"
+msgstr ""
+
+#: admin/tabs/mail.php:124
+msgid "SMTP Settings"
+msgstr ""
+
+#: admin/tabs/mail.php:127
+msgid ""
+"This options should be set only if you have chosen to send email via SMTP"
+msgstr ""
+
+#: admin/tabs/mail.php:134
+msgid "SMTP Host:"
+msgstr ""
+
+#: admin/tabs/mail.php:135 admin/tabs/mail.php:136
+msgid "Specify host name or ip address."
+msgstr ""
+
+#: admin/tabs/mail.php:142
+msgid "SMTP Port:"
+msgstr ""
+
+#: admin/tabs/mail.php:143 admin/tabs/mail.php:144
+msgid "Specify Port."
+msgstr ""
+
+#: admin/tabs/mail.php:151
+msgid "Encryption:"
+msgstr ""
+
+#: admin/tabs/mail.php:153
+msgid "No encryption"
+msgstr ""
+
+#: admin/tabs/mail.php:154
+msgid "Use SSL encryption"
+msgstr ""
+
+#: admin/tabs/mail.php:155
+msgid "Use TLS encryption"
+msgstr ""
+
+#: admin/tabs/mail.php:159 admin/tabs/mail.php:160
+msgid "Specify the encryption method."
+msgstr ""
+
+#: admin/tabs/mail.php:166
+msgid "Authentication:"
+msgstr ""
+
+#: admin/tabs/mail.php:168
+msgid "No. Do not use SMTP authentication"
+msgstr ""
+
+#: admin/tabs/mail.php:169
+msgid "Yes. Use SMTP Authentication"
+msgstr ""
+
+#: admin/tabs/mail.php:173 admin/tabs/mail.php:174
+msgid "Specify the authentication method."
+msgstr ""
+
+#: admin/tabs/mail.php:180
+msgid "Username:"
+msgstr ""
+
+#: admin/tabs/mail.php:181 admin/tabs/mail.php:182
+msgid "Specify Username."
+msgstr ""
+
+#: admin/tabs/mail.php:188
+msgid "Password:"
+msgstr ""
+
+#: admin/tabs/mail.php:189 admin/tabs/mail.php:190
+msgid "Input Password."
+msgstr ""
+
+#: admin/tabs/mail.php:200
+msgid ""
+"This options should be set only if you have chosen to send email via Mandrill"
+msgstr ""
+
+#: admin/tabs/mail.php:210
+msgid "Mandrill API Key:"
+msgstr ""
+
+#: admin/tabs/mail.php:211
+msgid ""
+"Specify Mandrill API. Find out more info here: https://mandrillapp.com/api/"
+"docs/"
+msgstr ""
+
+#: admin/tabs/mail.php:212
+msgid "Specify Mandrill API."
+msgstr ""
+
+#: admin/tabs/mail.php:222
+msgid "Admin Message New Booking"
+msgstr ""
+
+#: admin/tabs/mail.php:222 admin/tabs/mail.php:264 admin/tabs/mail.php:306
+#: admin/tabs/mail.php:348 admin/tabs/mail.php:391 admin/tabs/mail.php:435
+#: admin/tabs/mail.php:480 admin/tabs/mail.php:524 admin/tabs/mail.php:567
+#: admin/tabs/mail.php:611 admin/tabs/mail.php:654 admin/tabs/mail.php:697
+#: admin/tabs/mail.php:741 admin/tabs/mail.php:785 admin/tabs/mail.php:829
+msgid "Close"
+msgstr ""
+
+#: admin/tabs/mail.php:224
+msgid ""
+"This is the welcome email that is sent to the admin when a new booking is "
+"generated."
+msgstr ""
+
+#: admin/tabs/mail.php:234 admin/tabs/mail.php:277 admin/tabs/mail.php:319
+#: admin/tabs/mail.php:361 admin/tabs/mail.php:404 admin/tabs/mail.php:448
+#: admin/tabs/mail.php:493 admin/tabs/mail.php:537 admin/tabs/mail.php:580
+#: admin/tabs/mail.php:624 admin/tabs/mail.php:667 admin/tabs/mail.php:710
+#: admin/tabs/mail.php:754 admin/tabs/mail.php:798 admin/tabs/mail.php:842
+msgid "Subject:"
+msgstr ""
+
+#: admin/tabs/mail.php:235 admin/tabs/mail.php:236 admin/tabs/mail.php:278
+#: admin/tabs/mail.php:279 admin/tabs/mail.php:320 admin/tabs/mail.php:321
+#: admin/tabs/mail.php:362 admin/tabs/mail.php:363 admin/tabs/mail.php:405
+#: admin/tabs/mail.php:406 admin/tabs/mail.php:449 admin/tabs/mail.php:450
+#: admin/tabs/mail.php:494 admin/tabs/mail.php:495 admin/tabs/mail.php:538
+#: admin/tabs/mail.php:539 admin/tabs/mail.php:581 admin/tabs/mail.php:582
+#: admin/tabs/mail.php:625 admin/tabs/mail.php:626 admin/tabs/mail.php:668
+#: admin/tabs/mail.php:669 admin/tabs/mail.php:711 admin/tabs/mail.php:712
+#: admin/tabs/mail.php:755 admin/tabs/mail.php:756 admin/tabs/mail.php:799
+#: admin/tabs/mail.php:800 admin/tabs/mail.php:843 admin/tabs/mail.php:844
+msgid "Set Email Subject."
+msgstr ""
+
+#: admin/tabs/mail.php:242 admin/tabs/mail.php:285 admin/tabs/mail.php:327
+#: admin/tabs/mail.php:369 admin/tabs/mail.php:412 admin/tabs/mail.php:456
+#: admin/tabs/mail.php:501 admin/tabs/mail.php:545 admin/tabs/mail.php:588
+#: admin/tabs/mail.php:632 admin/tabs/mail.php:675 admin/tabs/mail.php:718
+#: admin/tabs/mail.php:762 admin/tabs/mail.php:806 admin/tabs/mail.php:850
+msgid "Message"
+msgstr ""
+
+#: admin/tabs/mail.php:243 admin/tabs/mail.php:244 admin/tabs/mail.php:286
+#: admin/tabs/mail.php:287 admin/tabs/mail.php:328 admin/tabs/mail.php:329
+#: admin/tabs/mail.php:370 admin/tabs/mail.php:371 admin/tabs/mail.php:413
+#: admin/tabs/mail.php:414 admin/tabs/mail.php:457 admin/tabs/mail.php:458
+#: admin/tabs/mail.php:502 admin/tabs/mail.php:503 admin/tabs/mail.php:546
+#: admin/tabs/mail.php:547 admin/tabs/mail.php:589 admin/tabs/mail.php:590
+#: admin/tabs/mail.php:633 admin/tabs/mail.php:634 admin/tabs/mail.php:676
+#: admin/tabs/mail.php:677 admin/tabs/mail.php:719 admin/tabs/mail.php:720
+#: admin/tabs/mail.php:763 admin/tabs/mail.php:764 admin/tabs/mail.php:807
+#: admin/tabs/mail.php:808 admin/tabs/mail.php:851 admin/tabs/mail.php:852
+msgid "Set Email Message here."
+msgstr ""
+
+#: admin/tabs/mail.php:253 admin/tabs/mail.php:296 admin/tabs/mail.php:340
+#: admin/tabs/mail.php:382 admin/tabs/mail.php:425 admin/tabs/mail.php:469
+#: admin/tabs/mail.php:514 admin/tabs/mail.php:558 admin/tabs/mail.php:601
+#: admin/tabs/mail.php:645 admin/tabs/mail.php:688 admin/tabs/mail.php:731
+#: admin/tabs/mail.php:775 admin/tabs/mail.php:819 admin/tabs/mail.php:860
+msgid "RESTORE DEFAULT TEMPLATE"
+msgstr ""
+
+#: admin/tabs/mail.php:264
+msgid "Staff Message New Booking"
+msgstr ""
+
+#: admin/tabs/mail.php:266
+msgid ""
+"This is the welcome email that is sent to the staff member when a new "
+"booking is generated."
+msgstr ""
+
+#: admin/tabs/mail.php:306
+msgid "Client Message New Booking"
+msgstr ""
+
+#: admin/tabs/mail.php:308
+msgid ""
+"This is the welcome email that is sent to the client when a new booking is "
+"generated."
+msgstr ""
+
+#: admin/tabs/mail.php:348
+msgid "Reschedule Message For Clients"
+msgstr ""
+
+#: admin/tabs/mail.php:350
+msgid "This message is sent to the CLIENT when an appointment is rescheduled."
+msgstr ""
+
+#: admin/tabs/mail.php:391
+msgid "Reschedule Message For Staff Member"
+msgstr ""
+
+#: admin/tabs/mail.php:393
+msgid ""
+"This message is sent to the STAFF MEMBER when an appointment is rescheduled."
+msgstr ""
+
+#: admin/tabs/mail.php:435
+msgid "Reschedule Message For The Admin"
+msgstr ""
+
+#: admin/tabs/mail.php:437
+msgid "This message is sent to the ADMIN when an appointment is rescheduled."
+msgstr ""
+
+#: admin/tabs/mail.php:480
+msgid "Bank Payment Message For the Client"
+msgstr ""
+
+#: admin/tabs/mail.php:482
+msgid ""
+"This message will be sent to the client when the selected payment method is "
+"bank."
+msgstr ""
+
+#: admin/tabs/mail.php:524
+msgid "Bank Payment Message For the Admin"
+msgstr ""
+
+#: admin/tabs/mail.php:526
+msgid ""
+"This message will be sent to the admin when the selected payment method is "
+"bank."
+msgstr ""
+
+#: admin/tabs/mail.php:567
+msgid "Bank Payment Message For the Staff"
+msgstr ""
+
+#: admin/tabs/mail.php:569
+msgid ""
+"This message will be sent to the staff member when the selected payment "
+"method is bank."
+msgstr ""
+
+#: admin/tabs/mail.php:611
+msgid "Appointment Status Changed Admin Email"
+msgstr ""
+
+#: admin/tabs/mail.php:613
+msgid ""
+"This message will be sent to the admin when status of an appointment changes."
+msgstr ""
+
+#: admin/tabs/mail.php:654
+msgid "Appointment Status Changed Staff Email"
+msgstr ""
+
+#: admin/tabs/mail.php:656
+msgid ""
+"This message will be sent to the staff member when status of an appointment "
+"changes."
+msgstr ""
+
+#: admin/tabs/mail.php:697
+msgid "Appointment Status Changed Client Email"
+msgstr ""
+
+#: admin/tabs/mail.php:699
+msgid ""
+"This message will be sent to the client when status of an appointment "
+"changes."
+msgstr ""
+
+#: admin/tabs/mail.php:741
+msgid "Staff Password Change"
+msgstr ""
+
+#: admin/tabs/mail.php:743 admin/tabs/mail.php:787
+msgid ""
+"This message will be sent to the staff member every time the password is "
+"changed in the staff account."
+msgstr ""
+
+#: admin/tabs/mail.php:785
+msgid "Password Reset Link"
+msgstr ""
+
+#: admin/tabs/mail.php:829
+msgid "Welcome Email For Staff Members"
+msgstr ""
+
+#: admin/tabs/mail.php:831
+msgid ""
+"This message will be sent to the staff member and it includes a welcome "
+"message along with a reset link, this will allow the staff members to manage "
+"their appointments"
+msgstr ""
+
+#: admin/tabs/main.php:52
+msgid "New"
+msgstr ""
+
+#: admin/tabs/main.php:66 classes/admin.php:279 classes/admin.php:324
+#: classes/admin.php:382 classes/getbookingswp.class.php:1078
+#: classes/getbookingswp.class.php:1140
+msgid "Today"
+msgstr ""
+
+#: admin/tabs/main.php:72 classes/admin.php:381
+msgid "Tomorrow"
+msgstr ""
+
+#: admin/tabs/main.php:78
+msgid "This Week"
+msgstr ""
+
+#: admin/tabs/main.php:93
+msgid "Unpaid"
+msgstr ""
+
+#: admin/tabs/main.php:127
+msgid "Upcoming Appointments!"
+msgstr ""
+
+#: admin/tabs/main.php:327 classes/admin.php:281
+msgid "Day"
+msgstr ""
+
+#: admin/tabs/main.php:327
+msgid "Bookings"
+msgstr ""
+
+#: admin/tabs/main.php:333
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: admin/tabs/orders.php:36 classes/admin.php:59 classes/admin.php:533
+msgid "Payments"
+msgstr ""
+
+#: admin/tabs/orders.php:57
+msgid "Keywords: "
+msgstr ""
+
+#: admin/tabs/orders.php:58
+msgid "Month: "
+msgstr ""
+
+#: admin/tabs/orders.php:59
+msgid "Day: "
+msgstr ""
+
+#: admin/tabs/orders.php:60
+msgid "Year: "
+msgstr ""
+
+#: admin/tabs/orders.php:64
+msgid "write some text here ..."
+msgstr ""
+
+#: admin/tabs/orders.php:66 admin/tabs/orders.php:79 admin/tabs/orders.php:92
+#: classes/user.php:1561
+msgid "All"
+msgstr ""
+
+#: admin/tabs/orders.php:118
+msgid "Total: "
+msgstr ""
+
+#: admin/tabs/orders.php:118
+msgid "Displaying per page: "
+msgstr ""
+
+#: admin/tabs/orders.php:149
+msgid "A. #"
+msgstr ""
+
+#: admin/tabs/orders.php:154 classes/appointment.php:1019
+msgid "Transaction ID"
+msgstr ""
+
+#: admin/tabs/orders.php:156 classes/appointment.php:1020
+msgid "Method"
+msgstr ""
+
+#: admin/tabs/orders.php:158 classes/appointment.php:1022
+msgid "Amount"
+msgstr ""
+
+#: admin/tabs/orders.php:192 classes/appointment.php:1058
+msgid "There are no transactions yet."
+msgstr ""
+
+#: admin/tabs/services.php:37
+msgid "Set Flexible Pricing"
+msgstr ""
+
+#: admin/tabs/services.php:38 classes/admin.php:304
+msgid "Add Category"
+msgstr ""
+
+#: admin/tabs/services.php:43
+msgid "Please input a name."
+msgstr ""
+
+#: admin/tabs/settings.php:1
+msgid "General Settings"
+msgstr ""
+
+#: admin/tabs/settings.php:17
+msgid "General"
+msgstr ""
+
+#: admin/tabs/settings.php:19 admin/tabs/settings.php:705
+msgid "Business Hours"
+msgstr ""
+
+#: admin/tabs/settings.php:21
+msgid "Newsletter"
+msgstr ""
+
+#: admin/tabs/settings.php:25
+msgid "Zoom"
+msgstr ""
+
+#: admin/tabs/settings.php:29
+msgid "Shopping Cart"
+msgstr ""
+
+#: admin/tabs/settings.php:41
+msgid "Premium  Settings"
+msgstr ""
+
+#: admin/tabs/settings.php:46 admin/tabs/settings.php:154
+msgid ""
+"This section allows you to set your company name, phone number and many "
+"other useful things such as set time slot, date format."
+msgstr ""
+
+#: admin/tabs/settings.php:57
+msgid "Payment Page for Appointments"
+msgstr ""
+
+#: admin/tabs/settings.php:59
+msgid ""
+"Select the page that will be used to request payments from your clients. The "
+"client will be taken to this page so they can submit their payment, once tha "
+"payment is confirmed then the appointment will change it's status to "
+"'Approved'. Make sure this page contains this shortcode: "
+"[getbwp_payment_form]"
+msgstr ""
+
+#: admin/tabs/settings.php:60
+msgid ""
+"Select the page that will be used to request payments from your clients."
+msgstr ""
+
+#: admin/tabs/settings.php:68
+msgid "What To Display in Get Bookings WP Admin Calendar?"
+msgstr ""
+
+#: admin/tabs/settings.php:70 admin/tabs/settings.php:655
+msgid "Staff Name"
+msgstr ""
+
+#: admin/tabs/settings.php:71 admin/tabs/settings.php:656
+msgid "Client Name"
+msgstr ""
+
+#: admin/tabs/settings.php:73 admin/tabs/settings.php:74
+msgid ""
+"You can set what will be displayed in the GET BOOKINGS WP Dashboard "
+"Calendar. You can set either Staff Name or Client Name"
+msgstr ""
+
+#: admin/tabs/settings.php:78
+msgid "Disabled."
+msgstr ""
+
+#: admin/tabs/settings.php:79
+msgid "1 hour."
+msgstr ""
+
+#: admin/tabs/settings.php:80
+msgid "2 hours."
+msgstr ""
+
+#: admin/tabs/settings.php:81
+msgid "3 hours."
+msgstr ""
+
+#: admin/tabs/settings.php:82
+msgid "4 hours."
+msgstr ""
+
+#: admin/tabs/settings.php:83
+msgid "5 hours."
+msgstr ""
+
+#: admin/tabs/settings.php:84
+msgid "6 hours."
+msgstr ""
+
+#: admin/tabs/settings.php:85
+msgid "7 hours."
+msgstr ""
+
+#: admin/tabs/settings.php:86
+msgid "8 hours."
+msgstr ""
+
+#: admin/tabs/settings.php:87
+msgid "9 hours."
+msgstr ""
+
+#: admin/tabs/settings.php:88
+msgid "10 hours."
+msgstr ""
+
+#: admin/tabs/settings.php:89
+msgid "11 hours."
+msgstr ""
+
+#: admin/tabs/settings.php:90
+msgid "12 hours."
+msgstr ""
+
+#: admin/tabs/settings.php:91
+msgid "1 day"
+msgstr ""
+
+#: admin/tabs/settings.php:92
+msgid "2 days."
+msgstr ""
+
+#: admin/tabs/settings.php:93
+msgid "3 days."
+msgstr ""
+
+#: admin/tabs/settings.php:94
+msgid "4 days."
+msgstr ""
+
+#: admin/tabs/settings.php:95
+msgid "5 days"
+msgstr ""
+
+#: admin/tabs/settings.php:96
+msgid "6 days"
+msgstr ""
+
+#: admin/tabs/settings.php:97
+msgid "1 week."
+msgstr ""
+
+#: admin/tabs/settings.php:98
+msgid "2 weeks."
+msgstr ""
+
+#: admin/tabs/settings.php:99
+msgid "3 weeks."
+msgstr ""
+
+#: admin/tabs/settings.php:100
+msgid "4 Weeks."
+msgstr ""
+
+#: admin/tabs/settings.php:108
+msgid "Minimum time requirement prior to booking:"
+msgstr ""
+
+#: admin/tabs/settings.php:110 admin/tabs/settings.php:111
+msgid ""
+"Set how late appointments can be booked (for example, require customers to "
+"book at least 1 hour before the appointment time)."
+msgstr ""
+
+#: admin/tabs/settings.php:118
+msgid "Activate timezone detection?"
+msgstr ""
+
+#: admin/tabs/settings.php:123 admin/tabs/settings.php:124
+msgid ""
+"This will detect the client's timezone. Which is useful if you offer "
+"services on different locations with different hours."
+msgstr ""
+
+#: admin/tabs/settings.php:136
+msgid ""
+"These settings are included in the premium version of GetBookingsWP. If you "
+"find the plugin useful for your business please consider buying a licence "
+"for the full version."
+msgstr ""
+
+#: admin/tabs/settings.php:152
+msgid "Miscellaneous  Settings"
+msgstr ""
+
+#: admin/tabs/settings.php:164
+msgid "Company Name:"
+msgstr ""
+
+#: admin/tabs/settings.php:165 admin/tabs/settings.php:166
+msgid "Enter your company name here."
+msgstr ""
+
+#: admin/tabs/settings.php:172
+msgid "Company Phone Number:"
+msgstr ""
+
+#: admin/tabs/settings.php:173 admin/tabs/settings.php:174
+msgid "Enter your company phone number here."
+msgstr ""
+
+#: admin/tabs/settings.php:180
+msgid "Company Address:"
+msgstr ""
+
+#: admin/tabs/settings.php:181 admin/tabs/settings.php:182
+msgid "Enter your company address here."
+msgstr ""
+
+#: admin/tabs/settings.php:188
+msgid "Booking Type"
+msgstr ""
+
+#: admin/tabs/settings.php:190
+msgid "Paid Booking"
+msgstr ""
+
+#: admin/tabs/settings.php:191
+msgid "Free Booking"
+msgstr ""
+
+#: admin/tabs/settings.php:193
+msgid ""
+"Free Booking allows users to book and appointment for free, the payment "
+"methods will not be displayed. "
+msgstr ""
+
+#: admin/tabs/settings.php:194
+msgid ""
+"Free Booking allows users to book and appointment for free, the payment "
+"methods will not be displayed."
+msgstr ""
+
+#: admin/tabs/settings.php:201
+msgid "Is wp_head in theme?"
+msgstr ""
+
+#: admin/tabs/settings.php:206 admin/tabs/settings.php:207
+msgid ""
+"This setting is useful for themes that doesn't include the wp_head "
+"functions, which is not the ideal for the best practice to develop WP themes."
+msgstr ""
+
+#: admin/tabs/settings.php:213
+msgid "Country Detection Active?"
+msgstr ""
+
+#: admin/tabs/settings.php:218 admin/tabs/settings.php:219
+msgid ""
+"This settings us a third-party library to auto-fill the phone number field "
+"on the front-end booking form."
+msgstr ""
+
+#: admin/tabs/settings.php:228
+msgid ""
+"If checked, the users will be taken to this page. This option is used only "
+"when you have set Free Bookins as Regitration Type "
+msgstr ""
+
+#: admin/tabs/settings.php:236
+msgid "Success Page for Free Bookings"
+msgstr ""
+
+#: admin/tabs/settings.php:238 admin/tabs/settings.php:239
+msgid ""
+"Select the sucess page. The user will be taken to this page right after the "
+"booking confirmation."
+msgstr ""
+
+#: admin/tabs/settings.php:251
+msgid "Default Status for Free Appointments"
+msgstr ""
+
+#: admin/tabs/settings.php:253
+msgid ""
+"Set the default status an appointment will have when NOT using a payment "
+"method. You won't have to approve the appointments manually, they will get "
+"approved automatically."
+msgstr ""
+
+#: admin/tabs/settings.php:254
+msgid ""
+"et the default status an appointment will have when NOT using a payment "
+"method."
+msgstr ""
+
+#: admin/tabs/settings.php:262
+msgid "Custom Message for Free Bookings"
+msgstr ""
+
+#: admin/tabs/settings.php:271
+msgid "Redirect Cancellation link? "
+msgstr ""
+
+#: admin/tabs/settings.php:273
+msgid ""
+"If checked, the clients will be able to cancel the appointment by using the "
+"cancellation link displayed in the appointment details email and they will "
+"be redirected to your custom page specified above. "
+msgstr ""
+
+#: admin/tabs/settings.php:274
+msgid ""
+"If checked, the clients will be able to cancel the appointment by using the "
+"cancellation link displayed in the appointment details email. "
+msgstr ""
+
+#: admin/tabs/settings.php:281
+msgid ""
+"Select the cancellation page. The appointment cancellation needs a page. "
+"Please create your cancellation page and set it here. IMPORTANT: Setting a "
+"page is very important, otherwise this feature will not work."
+msgstr ""
+
+#: admin/tabs/settings.php:282
+msgid ""
+"Select the cancellation page. The appointment cancellation needs a page. "
+"Please create your cancellation page and set it here."
+msgstr ""
+
+#: admin/tabs/settings.php:289
+msgid "Appointment Approval Page"
+msgstr ""
+
+#: admin/tabs/settings.php:291
+msgid ""
+"Select the approbation page for your appointments. Please create a page if "
+"you wish to let the admin to approve an appointment via email. "
+"<br><br><strong>IMPORTANT:</strong> Setting this page is very important, "
+"otherwise this feature will not work. <br><br><strong>IMPORTANT:</strong> "
+"Only the admin will receive the link to approve and appointment via email."
+msgstr ""
+
+#: admin/tabs/settings.php:292
+msgid "Select the Approbation page for your appointments"
+msgstr ""
+
+#: admin/tabs/settings.php:356
+msgid "Date Format:"
+msgstr ""
+
+#: admin/tabs/settings.php:358 admin/tabs/settings.php:359
+msgid "Select the date format to be used"
+msgstr ""
+
+#: admin/tabs/settings.php:366
+msgid "Date Picker Format:"
+msgstr ""
+
+#: admin/tabs/settings.php:368 admin/tabs/settings.php:369
+#: admin/tabs/settings.php:377 admin/tabs/settings.php:378
+msgid "Select the date format to be used on the Date Picker"
+msgstr ""
+
+#: admin/tabs/settings.php:375
+msgid "Admin Date Format:"
+msgstr ""
+
+#: admin/tabs/settings.php:384
+msgid "Display Time Format:"
+msgstr ""
+
+#: admin/tabs/settings.php:386 admin/tabs/settings.php:387
+msgid "Select the time format to be used"
+msgstr ""
+
+#: admin/tabs/settings.php:395
+msgid "Allow booking outside business hours?"
+msgstr ""
+
+#: admin/tabs/settings.php:400
+msgid ""
+"Use this option if you don't wish to receive purchases on services that fall "
+"outside the business hours. The booking system calculates that the "
+"appointments have to end when the business hours stop. "
+msgstr ""
+
+#: admin/tabs/settings.php:401
+msgid ""
+"Use this option if you don't wish to receive purchases on services that fall "
+"outside the business hours. The booking system calculates that the "
+"appointments have to end when the business hours stop.  "
+msgstr ""
+
+#: admin/tabs/settings.php:408
+msgid "Display only from hour?"
+msgstr ""
+
+#: admin/tabs/settings.php:413
+msgid ""
+"Use this option if you don't wish to display the the whole time range, "
+"example 08:30 – 09:00 "
+msgstr ""
+
+#: admin/tabs/settings.php:414
+msgid ""
+"Use this option if you don't wish to display the the whole time range, "
+"example 08:30 – 09:00  "
+msgstr ""
+
+#: admin/tabs/settings.php:421
+msgid "Is Phone Number Mandatory?"
+msgstr ""
+
+#: admin/tabs/settings.php:426
+msgid ""
+"Use this option if you don't wish to require a phone number at the step 3 "
+msgstr ""
+
+#: admin/tabs/settings.php:427
+msgid ""
+"Use this option if you don't wish to require a phone number at the step 3  "
+msgstr ""
+
+#: admin/tabs/settings.php:433
+msgid "Ask for Last Name on Checkout?"
+msgstr ""
+
+#: admin/tabs/settings.php:438 admin/tabs/settings.php:439
+msgid ""
+"Use this option if you don't wish to require a the last name of your client "
+"at the step 3 "
+msgstr ""
+
+#: admin/tabs/settings.php:447
+msgid "Days to display on Step 2:"
+msgstr ""
+
+#: admin/tabs/settings.php:449 admin/tabs/settings.php:450
+msgid "Set how many days will be displayed on the step 2"
+msgstr ""
+
+#: admin/tabs/settings.php:459
+msgid "Currency Symbol"
+msgstr ""
+
+#: admin/tabs/settings.php:460 admin/tabs/settings.php:461
+msgid "Input the currency symbol: Example: $"
+msgstr ""
+
+#: admin/tabs/settings.php:467
+msgid "Display service price on staff list?"
+msgstr ""
+
+#: admin/tabs/settings.php:472 admin/tabs/settings.php:473
+msgid ""
+"Use this option if you don't wish to display the service's price on the "
+"staff drop/down list "
+msgstr ""
+
+#: admin/tabs/settings.php:479
+msgid "Display unavailable slots on booking form?"
+msgstr ""
+
+#: admin/tabs/settings.php:484
+msgid ""
+"Use this option if you don't wish to display the unavailable slots in the "
+"front-end booking form."
+msgstr ""
+
+#: admin/tabs/settings.php:485
+msgid ""
+"Use this option if you don't wish to display the unavailable slots in the "
+"front-end booking form. "
+msgstr ""
+
+#: admin/tabs/settings.php:507
+msgid "Staff Schedule Period:"
+msgstr ""
+
+#: admin/tabs/settings.php:509 admin/tabs/settings.php:510
+msgid ""
+"This gives you flexibility to set the start working hour for your staff "
+"members"
+msgstr ""
+
+#: admin/tabs/settings.php:516
+msgid "Calendar Slot Length:"
+msgstr ""
+
+#: admin/tabs/settings.php:518 admin/tabs/settings.php:519
+msgid "Select the slot length to be used on the Calendar"
+msgstr ""
+
+#: admin/tabs/settings.php:526
+msgid "Time slot length:"
+msgstr ""
+
+#: admin/tabs/settings.php:528 admin/tabs/settings.php:529
+msgid ""
+"Select the time interval that will be used in frontend and backend, e.g. in "
+"calendar, second step of the booking process, while indicating the working "
+"hours, etc."
+msgstr ""
+
+#: admin/tabs/settings.php:536
+msgid "Use GetBookingsWP Avatar"
+msgstr ""
+
+#: admin/tabs/settings.php:542 admin/tabs/settings.php:543
+msgid ""
+"If you select \"yes\", GetBookingsWP will override the default WordPress "
+"Avatar"
+msgstr ""
+
+#: admin/tabs/settings.php:550
+msgid "Auto Rotation Fixer"
+msgstr ""
+
+#: admin/tabs/settings.php:556 admin/tabs/settings.php:557
+msgid ""
+"If you select 'yes', GetBookingsWP will Automatically fix the rotation of "
+"JPEG images using PHP's EXIF extension, immediately after they are uploaded "
+"to the server. This is implemented for iPhone rotation issues"
+msgstr ""
+
+#: admin/tabs/settings.php:562
+msgid "Avatar Width:"
+msgstr ""
+
+#: admin/tabs/settings.php:563 admin/tabs/settings.php:564
+msgid "Width in pixels"
+msgstr ""
+
+#: admin/tabs/settings.php:570
+msgid "Avatar Height"
+msgstr ""
+
+#: admin/tabs/settings.php:571 admin/tabs/settings.php:572
+msgid "Height in pixels"
+msgstr ""
+
+#: admin/tabs/settings.php:600
+msgid "Zoom Video Conference API Settings"
+msgstr ""
+
+#: admin/tabs/settings.php:604
+msgid ""
+"The Zoom Video Conference feature is disabled in the free version of "
+"GetBookingsWP. If you find the plugin useful for your business please "
+"consider buying a licence for the full version."
+msgstr ""
+
+#: admin/tabs/settings.php:618
+msgid "Google Calendar Settings"
+msgstr ""
+
+#: admin/tabs/settings.php:625
+msgid ""
+"This module gives you the capability to sync the plugin with Google "
+"Calendar. Each Staff member can have a different Google Calendar linked to "
+"their accounts."
+msgstr ""
+
+#: admin/tabs/settings.php:635
+msgid "Client ID"
+msgstr ""
+
+#: admin/tabs/settings.php:636 admin/tabs/settings.php:637
+msgid ""
+"Fill out this field with your Client ID obtained from the Developers Console"
+msgstr ""
+
+#: admin/tabs/settings.php:643
+msgid "Client Secret"
+msgstr ""
+
+#: admin/tabs/settings.php:644 admin/tabs/settings.php:645
+msgid ""
+"Fill out this field with your Client Secret obtained from the Developers "
+"Console."
+msgstr ""
+
+#: admin/tabs/settings.php:652
+msgid "What To Display in Google Calendar?"
+msgstr ""
+
+#: admin/tabs/settings.php:654
+msgid "Service Name"
+msgstr ""
+
+#: admin/tabs/settings.php:659 admin/tabs/settings.php:660
+msgid ""
+"Set what information should be placed in the title of Google Calendar event"
+msgstr ""
+
+#: admin/tabs/settings.php:667
+msgid "Debug Mode?"
+msgstr ""
+
+#: admin/tabs/settings.php:673 admin/tabs/settings.php:674
+msgid ""
+"This option will display the detail of the error message if the Google "
+"Calendar Insert Method fails."
+msgstr ""
+
+#: admin/tabs/settings.php:681
+msgid "Redirect URI"
+msgstr ""
+
+#: admin/tabs/settings.php:682
+msgid "Enter this URL as a redirect URI in the Developers Console"
+msgstr ""
+
+#: admin/tabs/settings.php:695 admin/tabs/settings.php:900
+#: admin/tabs/settings.php:948
+msgid ""
+"This function is disabled in the free version of GetBookingsWP. If you find "
+"the plugin useful for your business please consider buying a licence for the "
+"full version."
+msgstr ""
+
+#: admin/tabs/settings.php:735 admin/tabs/settings.php:769
+msgid "Aweber Settings"
+msgstr ""
+
+#: admin/tabs/settings.php:737
+msgid "Here you can activate your preferred newsletter tool."
+msgstr ""
+
+#: admin/tabs/settings.php:745
+msgid "Activate Newsletter"
+msgstr ""
+
+#: admin/tabs/settings.php:748
+msgid "AWeber"
+msgstr ""
+
+#: admin/tabs/settings.php:749
+msgid "MailChimp"
+msgstr ""
+
+#: admin/tabs/settings.php:752 admin/tabs/settings.php:753
+msgid "Just set \"NO\" to deactivate the newsletter tool."
+msgstr ""
+
+#: admin/tabs/settings.php:771
+msgid ""
+"This module gives you the capability to subscribe your clients automatically "
+"to any of your Aweber List when they complete the purchase."
+msgstr ""
+
+#: admin/tabs/settings.php:782
+msgid "Consumer Key"
+msgstr ""
+
+#: admin/tabs/settings.php:783 admin/tabs/settings.php:784
+#: admin/tabs/settings.php:791 admin/tabs/settings.php:792
+#: admin/tabs/settings.php:857 admin/tabs/settings.php:858
+msgid "Fill out this field your list ID."
+msgstr ""
+
+#: admin/tabs/settings.php:790
+msgid "Consumer Secret"
+msgstr ""
+
+#: admin/tabs/settings.php:801
+msgid "Auto Checked Aweber"
+msgstr ""
+
+#: admin/tabs/settings.php:803 admin/tabs/settings.php:804
+#: admin/tabs/settings.php:868 admin/tabs/settings.php:869
+msgid ""
+"If checked, the user will not need to click on the mailchip checkbox. It "
+"will appear checked already."
+msgstr ""
+
+#: admin/tabs/settings.php:809
+msgid "Aweber Text"
+msgstr ""
+
+#: admin/tabs/settings.php:810 admin/tabs/settings.php:811
+#: admin/tabs/settings.php:875 admin/tabs/settings.php:876
+msgid ""
+"Please input the text that will appear when asking users to get periodical "
+"updates."
+msgstr ""
+
+#: admin/tabs/settings.php:817
+msgid "Aweber Header Text"
+msgstr ""
+
+#: admin/tabs/settings.php:818 admin/tabs/settings.php:819
+#: admin/tabs/settings.php:883 admin/tabs/settings.php:884
+msgid ""
+"Please input the text that will appear as header when mailchip is active."
+msgstr ""
+
+#: admin/tabs/settings.php:836
+msgid "MailChimp Settings"
+msgstr ""
+
+#: admin/tabs/settings.php:848
+msgid "MailChimp API Key"
+msgstr ""
+
+#: admin/tabs/settings.php:849 admin/tabs/settings.php:850
+msgid ""
+"Fill out this field with your MailChimp API key here to allow integration "
+"with MailChimp subscription."
+msgstr ""
+
+#: admin/tabs/settings.php:856
+msgid "MailChimp List ID"
+msgstr ""
+
+#: admin/tabs/settings.php:866
+msgid "Auto Checked MailChimp"
+msgstr ""
+
+#: admin/tabs/settings.php:874
+msgid "MailChimp Text"
+msgstr ""
+
+#: admin/tabs/settings.php:882
+msgid "MailChimp Header Text"
+msgstr ""
+
+#: admin/tabs/settings.php:913
+msgid "Shopping Cart Settings"
+msgstr ""
+
+#: admin/tabs/settings.php:920
+msgid ""
+"This module gives you the capability to allow users to purchase multiple "
+"services at once. There are some settings you can tweak on this section"
+msgstr ""
+
+#: admin/tabs/settings.php:929
+msgid "Purchase Description"
+msgstr ""
+
+#: admin/tabs/settings.php:930 admin/tabs/settings.php:931
+msgid ""
+"Here you can set a custom description that will be displayed when the client "
+"purchases multiple items by using the shopping cart features."
+msgstr ""
+
+#: admin/tabs/users.php:116
+msgid "'s Picture"
+msgstr ""
+
+#: admin/tabs/users.php:144
+msgid "Add Breaks"
+msgstr ""
+
+#: admin/templates/edit_appointment.php:23
+msgid "Created on : "
+msgstr ""
+
+#: admin/templates/edit_appointment.php:23 classes/appointment.php:1960
+msgid "Appointment Date: "
+msgstr ""
+
+#: admin/templates/edit_appointment.php:23
+msgid "at "
+msgstr ""
+
+#: admin/templates/edit_appointment.php:23
+msgid "Client: "
+msgstr ""
+
+#: admin/templates/edit_appointment.php:32
+#: admin/templates/new_appointment.php:8 classes/getbookingswp.class.php:2141
+#: classes/getbookingswp.class.php:2145 classes/service.php:4213
+msgid "Select Service"
+msgstr ""
+
+#: admin/templates/edit_appointment.php:42
+#: admin/templates/new_appointment.php:15 classes/getbookingswp.class.php:2149
+msgid "On or After"
+msgstr ""
+
+#: admin/templates/edit_appointment.php:49
+#: admin/templates/new_appointment.php:22 classes/getbookingswp.class.php:2157
+#: classes/service.php:3808 classes/service.php:3865 classes/service.php:4127
+msgid "With"
+msgstr ""
+
+#: admin/templates/edit_appointment.php:67 classes/appointment.php:1702
+#: classes/appointment.php:1704 classes/appointment.php:1706
+#: classes/appointment.php:1708
+msgid "Change Status"
+msgstr ""
+
+#: admin/templates/edit_appointment.php:72
+msgid "Reschedule Appointment"
+msgstr ""
+
+#: admin/templates/edit_appointment.php:78
+#: admin/templates/new_appointment.php:49 classes/getbookingswp.class.php:2209
+msgid "Check Availability"
+msgstr ""
+
+#: admin/templates/edit_appointment.php:90
+#: admin/templates/new_appointment.php:59 classes/service.php:1480
+msgid "Availability"
+msgstr ""
+
+#: admin/templates/edit_appointment.php:94
+msgid ""
+"Please click on the Check Availability to display the available time slots."
+msgstr ""
+
+#: admin/templates/edit_appointment.php:102
+#: admin/templates/edit_appointment.php:145
+#: admin/templates/new_appointment.php:72
+msgid "Send Notification To Client"
+msgstr ""
+
+#: admin/templates/edit_appointment.php:108
+msgid "Confirm Reschedule "
+msgstr ""
+
+#: admin/templates/edit_appointment.php:127
+msgid "Update Info"
+msgstr ""
+
+#: admin/templates/new_appointment.php:37
+msgid "Input Name or Email Address"
+msgstr ""
+
+#: classes/admin.php:54
+msgid "Dashboard"
+msgstr ""
+
+#: classes/admin.php:55 classes/admin.php:526
+msgid "Calendar"
+msgstr ""
+
+#: classes/admin.php:56 classes/admin.php:526 classes/admin.php:527
+#: classes/user.php:688
+msgid "Services"
+msgstr ""
+
+#: classes/admin.php:57 classes/admin.php:529
+#: classes/getbookingswp.class.php:2193
+msgid "Staff"
+msgstr ""
+
+#: classes/admin.php:60
+msgid "Fields"
+msgstr ""
+
+#: classes/admin.php:61 classes/admin.php:537
+msgid "Settings"
+msgstr ""
+
+#: classes/admin.php:62 classes/admin.php:539
+msgid "Notifications"
+msgstr ""
+
+#: classes/admin.php:64
+msgid "Gateways"
+msgstr ""
+
+#: classes/admin.php:65
+msgid "Help"
+msgstr ""
+
+#: classes/admin.php:66
+msgid "PREMIUM FEATURES!"
+msgstr ""
+
+#: classes/admin.php:280
+msgid "Week"
+msgstr ""
+
+#: classes/admin.php:282
+msgid "Month"
+msgstr ""
+
+#: classes/admin.php:283
+msgid "List"
+msgstr ""
+
+#: classes/admin.php:284
+msgid "All Day"
+msgstr ""
+
+#: classes/admin.php:285
+msgid "No staff selected"
+msgstr ""
+
+#: classes/admin.php:286
+msgid "New appointment"
+msgstr ""
+
+#: classes/admin.php:287
+msgid "Edit appointment"
+msgstr ""
+
+#: classes/admin.php:288
+msgid "Are you sure?"
+msgstr ""
+
+#: classes/admin.php:291 classes/admin.php:313
+msgid "Cancelled Appointments"
+msgstr ""
+
+#: classes/admin.php:292 classes/admin.php:314
+msgid "No-show Appointments"
+msgstr ""
+
+#: classes/admin.php:293 classes/admin.php:315
+msgid "Unpaid Appointments"
+msgstr ""
+
+#: classes/admin.php:300
+msgid "Are you totally sure that you wan to delete this category?"
+msgstr ""
+
+#: classes/admin.php:301
+msgid "Edit Service"
+msgstr ""
+
+#: classes/admin.php:302
+msgid "Add Service"
+msgstr ""
+
+#: classes/admin.php:303
+msgid "Edit Category"
+msgstr ""
+
+#: classes/admin.php:305
+msgid "Please input a title"
+msgstr ""
+
+#: classes/admin.php:306
+msgid "Please input a price"
+msgstr ""
+
+#: classes/admin.php:307
+msgid "Are you totally sure that you wan to delete this service?"
+msgstr ""
+
+#: classes/admin.php:308
+msgid "Are you totally sure that you wan to delete this user?"
+msgstr ""
+
+#: classes/admin.php:310
+msgid "<img src=\""
+msgstr ""
+
+#: classes/admin.php:323 classes/getbookingswp.class.php:1075
+#: classes/getbookingswp.class.php:1139
+msgid "Done"
+msgstr ""
+
+#: classes/admin.php:325 classes/getbookingswp.class.php:1076
+#: classes/getbookingswp.class.php:1141
+msgid "Prev"
+msgstr ""
+
+#: classes/admin.php:326 classes/getbookingswp.class.php:1077
+#: classes/getbookingswp.class.php:1142
+msgid "Next"
+msgstr ""
+
+#: classes/admin.php:329 classes/getbookingswp.class.php:1145
+msgid "Show a different month"
+msgstr ""
+
+#: classes/admin.php:376
+msgid "Apply"
+msgstr ""
+
+#: classes/admin.php:378
+msgid "From"
+msgstr ""
+
+#: classes/admin.php:379
+msgid "To"
+msgstr ""
+
+#: classes/admin.php:380
+msgid "Custom range"
+msgstr ""
+
+#: classes/admin.php:383
+msgid "Yesterday"
+msgstr ""
+
+#: classes/admin.php:384
+msgid "Last 7 days"
+msgstr ""
+
+#: classes/admin.php:385
+msgid "Last 30 days"
+msgstr ""
+
+#: classes/admin.php:386
+msgid "This month"
+msgstr ""
+
+#: classes/admin.php:387
+msgid "Next month"
+msgstr ""
+
+#: classes/admin.php:516
+#, php-format
+msgid "Get Bookings Wp %s"
+msgstr ""
+
+#: classes/admin.php:520
+msgid "Get Bookings Wp"
+msgstr ""
+
+#: classes/admin.php:523
+msgid "Get Bookings Wp Pro"
+msgstr ""
+
+#: classes/admin.php:535
+msgid "Custom Fields"
+msgstr ""
+
+#: classes/admin.php:543
+msgid "Documentation"
+msgstr ""
+
+#: classes/admin.php:549
+msgid "More Functionality!"
+msgstr ""
+
+#: classes/admin.php:554
+msgid "Licensing"
+msgstr ""
+
+#: classes/admin.php:631
+msgid "Appointments Plugin"
+msgstr ""
+
+#: classes/admin.php:649
+msgid "New Appointment Request has been received"
+msgstr ""
+
+#: classes/admin.php:652
+msgid "You have a new appointment"
+msgstr ""
+
+#: classes/admin.php:654
+msgid "Thank you for your appointment"
+msgstr ""
+
+#: classes/admin.php:658 classes/admin.php:659 classes/admin.php:660
+msgid "Appointment Reschedule"
+msgstr ""
+
+#: classes/admin.php:663
+msgid "Appointment Details"
+msgstr ""
+
+#: classes/admin.php:666
+msgid "New Appointment"
+msgstr ""
+
+#: classes/admin.php:669
+msgid "You have a new Appointment"
+msgstr ""
+
+#: classes/admin.php:672 classes/admin.php:674 classes/admin.php:676
+msgid "Appointment Status Changed"
+msgstr ""
+
+#: classes/admin.php:679
+msgid "Password Changed"
+msgstr ""
+
+#: classes/admin.php:682
+msgid "Password Reset"
+msgstr ""
+
+#: classes/admin.php:685
+msgid "Your Account Details"
+msgstr ""
+
+#: classes/admin.php:702 classes/admin.php:846 classes/admin.php:892
+msgid "Hello Admin "
+msgstr ""
+
+#: classes/admin.php:703
+msgid ""
+"A new booking has been received. Below are the details of the appointment."
+msgstr ""
+
+#: classes/admin.php:705 classes/admin.php:730 classes/admin.php:751
+#: classes/admin.php:772 classes/admin.php:790 classes/admin.php:808
+#: classes/admin.php:830 classes/admin.php:848 classes/admin.php:871
+#: classes/admin.php:897 classes/admin.php:917 classes/admin.php:936
+msgid "Appointment Details:"
+msgstr ""
+
+#: classes/admin.php:706 classes/admin.php:731 classes/admin.php:752
+#: classes/admin.php:773 classes/admin.php:791 classes/admin.php:809
+#: classes/admin.php:831 classes/admin.php:849 classes/admin.php:872
+#: classes/admin.php:898 classes/admin.php:918 classes/admin.php:937
+msgid "Service: {{getbwp_booking_service}}"
+msgstr ""
+
+#: classes/admin.php:707 classes/admin.php:732 classes/admin.php:850
+#: classes/admin.php:873
+msgid "Client: {{getbwp_client_name}}"
+msgstr ""
+
+#: classes/admin.php:708 classes/admin.php:733 classes/admin.php:851
+#: classes/admin.php:874
+msgid "Phone: {{getbwp_client_phone}}"
+msgstr ""
+
+#: classes/admin.php:709 classes/admin.php:734 classes/admin.php:852
+#: classes/admin.php:875
+msgid "Client Email: {{getbwp_client_email}}"
+msgstr ""
+
+#: classes/admin.php:710 classes/admin.php:735 classes/admin.php:753
+#: classes/admin.php:774 classes/admin.php:792 classes/admin.php:810
+#: classes/admin.php:833 classes/admin.php:853 classes/admin.php:876
+#: classes/admin.php:899 classes/admin.php:919 classes/admin.php:938
+msgid "Date: {{getbwp_booking_date}}"
+msgstr ""
+
+#: classes/admin.php:711 classes/admin.php:736 classes/admin.php:754
+#: classes/admin.php:775 classes/admin.php:793 classes/admin.php:811
+#: classes/admin.php:834 classes/admin.php:854 classes/admin.php:877
+#: classes/admin.php:900 classes/admin.php:920 classes/admin.php:939
+msgid "Time: {{getbwp_booking_time}}"
+msgstr ""
+
+#: classes/admin.php:712 classes/admin.php:737 classes/admin.php:755
+#: classes/admin.php:776 classes/admin.php:794 classes/admin.php:812
+#: classes/admin.php:835 classes/admin.php:855 classes/admin.php:878
+#: classes/admin.php:901 classes/admin.php:921 classes/admin.php:940
+msgid "With: {{getbwp_booking_staff}}"
+msgstr ""
+
+#: classes/admin.php:713 classes/admin.php:738 classes/admin.php:756
+#: classes/admin.php:777 classes/admin.php:795 classes/admin.php:813
+#: classes/admin.php:836 classes/admin.php:856 classes/admin.php:879
+msgid "Cost: {{getbwp_booking_cost}}"
+msgstr ""
+
+#: classes/admin.php:715 classes/admin.php:740 classes/admin.php:758
+#: classes/admin.php:779 classes/admin.php:797 classes/admin.php:815
+#: classes/admin.php:838 classes/admin.php:858 classes/admin.php:881
+#: classes/admin.php:903 classes/admin.php:923 classes/admin.php:942
+#: classes/admin.php:953 classes/admin.php:966 classes/admin.php:980
+msgid "Best Regards!"
+msgstr ""
+
+#: classes/admin.php:720 classes/admin.php:863 classes/admin.php:886
+msgid ""
+"Please, use the following link in case you'd like to approve this "
+"appointment."
+msgstr ""
+
+#: classes/admin.php:728
+msgid "You have a new appointment. "
+msgstr ""
+
+#: classes/admin.php:749
+msgid ""
+"Thank you for booking {{getbwp_booking_service}}. Below are the details of "
+"your appointment."
+msgstr ""
+
+#: classes/admin.php:763
+msgid ""
+"Please, use the following link in case you'd like to cancel your appointment."
+msgstr ""
+
+#: classes/admin.php:770
+msgid "Your appointment has been rescheduled . "
+msgstr ""
+
+#: classes/admin.php:788
+msgid "One of your appointments has been rescheduled . "
+msgstr ""
+
+#: classes/admin.php:806
+msgid "This is a confirmation that an appointment has been rescheduled . "
+msgstr ""
+
+#: classes/admin.php:824
+msgid "Please deposit the payment in the following bank account: "
+msgstr ""
+
+#: classes/admin.php:847
+msgid "A new appointment with local payment has been submitted. "
+msgstr ""
+
+#: classes/admin.php:870
+msgid ""
+"Dear staff member, new appointment with local payment has been submitted. "
+msgstr ""
+
+#: classes/admin.php:893 classes/admin.php:912
+msgid "The status of the following appointment has changed. "
+msgstr ""
+
+#: classes/admin.php:895 classes/admin.php:914 classes/admin.php:934
+msgid "New Status: {{getbwp_booking_status}}"
+msgstr ""
+
+#: classes/admin.php:932
+msgid "The status of your appointment has changed. "
+msgstr ""
+
+#: classes/admin.php:951
+msgid "This is a notification that your password has been changed. "
+msgstr ""
+
+#: classes/admin.php:962 classes/admin.php:977
+msgid "Please use the following link to reset your password."
+msgstr ""
+
+#: classes/admin.php:964
+msgid "If you did not request a new password delete this email."
+msgstr ""
+
+#: classes/admin.php:975
+msgid "Your login details for your account are as follows:"
+msgstr ""
+
+#: classes/admin.php:976
+msgid "Username: {{getbwp_user_name}}"
+msgstr ""
+
+#: classes/admin.php:988
+msgid "Dear "
+msgstr ""
+
+#: classes/admin.php:989
+msgid ""
+"You have an appointment with our company tomorrow at {{getbwp_booking_time}}."
+msgstr ""
+
+#: classes/admin.php:990
+msgid " We are waiting you at {{getbwp_company_address}}. "
+msgstr ""
+
+#: classes/admin.php:1325
+msgid "Position"
+msgstr ""
+
+#: classes/admin.php:1330
+msgid ""
+"Please use a unique position. Position lets you place the new field in the "
+"place you want exactly in Profile view."
+msgstr ""
+
+#: classes/admin.php:1334
+msgid "Field Type"
+msgstr ""
+
+#: classes/admin.php:1338
+msgid "Booking Field"
+msgstr ""
+
+#: classes/admin.php:1350
+msgid "Field Input"
+msgstr ""
+
+#: classes/admin.php:1367
+msgid "Custom Meta Field"
+msgstr ""
+
+#: classes/admin.php:1379
+msgid "Label / Name"
+msgstr ""
+
+#: classes/admin.php:1436
+msgid "Allow HTML"
+msgstr ""
+
+#: classes/admin.php:1446
+msgid "If yes, users will be able to write HTML code in this field."
+msgstr ""
+
+#: classes/admin.php:1456
+msgid "This field is Required"
+msgstr ""
+
+#: classes/admin.php:1493
+msgid "Show on Registration Form"
+msgstr ""
+
+#: classes/admin.php:1503
+msgid "Show this profile field on the registration form"
+msgstr ""
+
+#: classes/admin.php:1521
+msgid "Available Choices"
+msgstr ""
+
+#: classes/admin.php:1528
+msgid ""
+"<strong>PLEASE NOTE: </strong>Enter values separated by commas, example: "
+"1,2,3. The choices will be available for front end user to choose from."
+msgstr ""
+
+#: classes/admin.php:1531
+msgid ""
+"<strong>PLEASE NOTE:</strong> Enter one choice per line please. The choices "
+"will be available for front end user to choose from."
+msgstr ""
+
+#: classes/admin.php:1542
+msgid ""
+"Enter one choice per line please. The choices will be available for front "
+"end user to choose from."
+msgstr ""
+
+#: classes/admin.php:1550
+msgid "Enable Predefined Choices"
+msgstr ""
+
+#: classes/admin.php:1554
+msgid "None"
+msgstr ""
+
+#: classes/admin.php:1557
+msgid "List of Countries"
+msgstr ""
+
+#: classes/admin.php:1561
+msgid "Age"
+msgstr ""
+
+#: classes/admin.php:1564
+msgid ""
+"You can enable a predefined filter for choices. e.g. List of countries It "
+"enables country selection in profiles and saves you time to do it on your "
+"own."
+msgstr ""
+
+#: classes/admin.php:1578
+msgid "Update"
+msgstr ""
+
+#: classes/admin.php:1597 classes/getbookingswp.class.php:857
+msgid "Appointment Info"
+msgstr ""
+
+#: classes/admin.php:1610 classes/getbookingswp.class.php:870
+msgid "Comments"
+msgstr ""
+
+#: classes/admin.php:1707
+msgid ""
+"<span class=\"getbwp-field-separator\"><i class=\"fa fa-list\"></i> </span>"
+msgstr ""
+
+#: classes/admin.php:1719
+msgid " - Separator"
+msgstr ""
+
+#: classes/admin.php:1745
+msgid "Success! This field has been deleted "
+msgstr ""
+
+#: classes/admin.php:1822
+msgid "Settings saved."
+msgstr ""
+
+#: classes/admin.php:1967 classes/admin.php:2000
+msgid "Congratulations!. Your copy has been validated"
+msgstr ""
+
+#: classes/admin.php:1974 classes/admin.php:2007
+msgid "We are sorry the serial key you have used has expired"
+msgstr ""
+
+#: classes/admin.php:1981 classes/admin.php:2014
+msgid "We are sorry your serial key is not valid"
+msgstr ""
+
+#: classes/admin.php:2083 classes/getbookingswp.class.php:474
+msgid "Dismiss"
+msgstr ""
+
+#: classes/admin.php:2089 classes/getbookingswp.class.php:480
+msgid "Validate your Copy"
+msgstr ""
+
+#: classes/admin.php:2124
+msgid "Email Template has been restored."
+msgstr ""
+
+#: classes/admin.php:2133
+msgid "Rewrite Rules were Saved."
+msgstr ""
+
+#: classes/admin.php:2150
+msgid "GET BOOKINGS WP"
+msgstr ""
+
+#: classes/admin.php:2151
+msgid "<a href=\"?page=getbookingswp\">"
+msgstr ""
+
+#: classes/admin.php:2157
+msgid "DASHBOARD"
+msgstr ""
+
+#: classes/admin.php:2160
+msgid "CALENDAR"
+msgstr ""
+
+#: classes/admin.php:2164
+msgid "BOOKINGS"
+msgstr ""
+
+#: classes/admin.php:2168
+msgid "STAFF"
+msgstr ""
+
+#: classes/admin.php:2172
+msgid "ORDERS"
+msgstr ""
+
+#: classes/admin.php:2176
+msgid "GET HELP"
+msgstr ""
+
+#: classes/admin.php:2180
+msgid "GO PRO"
+msgstr ""
+
+#: classes/appointment.php:126 classes/appointment.php:200
+msgid "Error!"
+msgstr ""
+
+#: classes/appointment.php:471 classes/appointment.php:475
+#: classes/appointment.php:499 classes/getbookingswp.class.php:1365
+#: classes/getbookingswp.class.php:1369 classes/getbookingswp.class.php:1379
+#: classes/getbookingswp.class.php:1389 classes/getbookingswp.class.php:1430
+#: classes/getbookingswp.class.php:1460 classes/getbookingswp.class.php:1621
+#: classes/getbookingswp.class.php:1625 classes/getbookingswp.class.php:1648
+msgid " * This input is required!"
+msgstr ""
+
+#: classes/appointment.php:812
+msgid "Amount:"
+msgstr ""
+
+#: classes/appointment.php:814
+msgid "Transaction ID:"
+msgstr ""
+
+#: classes/appointment.php:816
+msgid "Date:"
+msgstr ""
+
+#: classes/appointment.php:823
+msgid "Status:"
+msgstr ""
+
+#: classes/appointment.php:826
+msgid "Confirmed"
+msgstr ""
+
+#: classes/appointment.php:903
+msgid "Done!. The appointment has been rescheduled. Below are the new details."
+msgstr ""
+
+#: classes/appointment.php:904 classes/appointment.php:961
+#: classes/appointment.php:1167
+msgid "Appointment Details."
+msgstr ""
+
+#: classes/appointment.php:906 classes/appointment.php:963
+#: classes/appointment.php:1169
+msgid "Service: "
+msgstr ""
+
+#: classes/appointment.php:907 classes/appointment.php:964
+#: classes/appointment.php:1170
+msgid "Date: "
+msgstr ""
+
+#: classes/appointment.php:908 classes/appointment.php:965
+#: classes/appointment.php:1171
+msgid "Time: "
+msgstr ""
+
+#: classes/appointment.php:909 classes/appointment.php:966
+#: classes/appointment.php:1172
+msgid "With: "
+msgstr ""
+
+#: classes/appointment.php:910 classes/appointment.php:967
+#: classes/appointment.php:1173 classes/appointment.php:1959
+msgid "Cost: "
+msgstr ""
+
+#: classes/appointment.php:1004
+msgid "Service Cost"
+msgstr ""
+
+#: classes/appointment.php:1005
+msgid "Paid"
+msgstr ""
+
+#: classes/appointment.php:1166
+msgid "The appointment has been created."
+msgstr ""
+
+#: classes/appointment.php:1704 classes/appointment.php:1763
+msgid "Approved"
+msgstr ""
+
+#: classes/appointment.php:1882
+msgid "Cancel Appointment"
+msgstr ""
+
+#: classes/appointment.php:1884
+msgid "No-Show Appointment"
+msgstr ""
+
+#: classes/appointment.php:1886
+msgid "Confirm Appointment"
+msgstr ""
+
+#: classes/appointment.php:1890 classes/appointment.php:1958
+#: classes/appointment.php:2127
+msgid "with"
+msgstr ""
+
+#: classes/appointment.php:1901
+msgid "There are no appointments"
+msgstr ""
+
+#: classes/appointment.php:1954
+msgid "Confirm Payment"
+msgstr ""
+
+#: classes/appointment.php:1971
+msgid "There are no unpaid orders"
+msgstr ""
+
+#: classes/appointment.php:2138
+msgid "There are no upcoming appointments"
+msgstr ""
+
+#: classes/break.php:70
+msgid "Done!"
+msgstr ""
+
+#: classes/break.php:74
+msgid "ERROR. Duplicated Break!"
+msgstr ""
+
+#: classes/break.php:95 classes/service.php:3116 classes/service.php:3120
+#: classes/service.php:3124 classes/service.php:3128 classes/service.php:3132
+#: classes/service.php:3136 classes/service.php:3140 classes/service.php:3164
+#: classes/service.php:3168 classes/service.php:3172 classes/service.php:3176
+#: classes/service.php:3180 classes/service.php:3184 classes/service.php:3188
+msgid "to"
+msgstr ""
+
+#: classes/break.php:97
+msgid "Add"
+msgstr ""
+
+#: classes/break.php:170 classes/getbookingswp.class.php:1109
+#: classes/service.php:3115 classes/service.php:3163
+msgid "Monday"
+msgstr ""
+
+#: classes/break.php:172 classes/break.php:188 classes/break.php:203
+#: classes/break.php:217 classes/break.php:231 classes/break.php:246
+#: classes/break.php:260
+msgid "Add Break"
+msgstr ""
+
+#: classes/break.php:186 classes/getbookingswp.class.php:1110
+#: classes/service.php:3119 classes/service.php:3167
+msgid "Tuesday"
+msgstr ""
+
+#: classes/break.php:201 classes/getbookingswp.class.php:1111
+#: classes/service.php:3123 classes/service.php:3171
+msgid "Wednesday"
+msgstr ""
+
+#: classes/break.php:215 classes/service.php:3127 classes/service.php:3175
+msgid "Thursday "
+msgstr ""
+
+#: classes/break.php:229 classes/getbookingswp.class.php:1113
+msgid "Friday"
+msgstr ""
+
+#: classes/break.php:244 classes/getbookingswp.class.php:1114
+msgid "Saturday"
+msgstr ""
+
+#: classes/break.php:258 classes/getbookingswp.class.php:1108
+msgid "Sunday"
+msgstr ""
+
+#: classes/break.php:327
+msgid "Delete Break"
+msgstr ""
+
+#: classes/break.php:336
+msgid "There are no breaks for this day."
+msgstr ""
+
+#: classes/getbookingswp.class.php:754
+msgid "Text"
+msgstr ""
+
+#: classes/getbookingswp.class.php:756
+msgid "Textarea"
+msgstr ""
+
+#: classes/getbookingswp.class.php:757
+msgid "Select Dropdown"
+msgstr ""
+
+#: classes/getbookingswp.class.php:758
+msgid "Radio"
+msgstr ""
+
+#: classes/getbookingswp.class.php:759
+msgid "Checkbox"
+msgstr ""
+
+#: classes/getbookingswp.class.php:760
+msgid "Date Picker"
+msgstr ""
+
+#: classes/getbookingswp.class.php:773 classes/getbookingswp.class.php:805
+msgid "Your Name"
+msgstr ""
+
+#: classes/getbookingswp.class.php:781 classes/getbookingswp.class.php:813
+#: classes/user.php:1022
+msgid "E-mail"
+msgstr ""
+
+#: classes/getbookingswp.class.php:794
+msgid "Input your phone number"
+msgstr ""
+
+#: classes/getbookingswp.class.php:816
+msgid "Information about your booking will be sent to you."
+msgstr ""
+
+#: classes/getbookingswp.class.php:827
+msgid "Input your Phone Number"
+msgstr ""
+
+#: classes/getbookingswp.class.php:839
+msgid "Username or Email"
+msgstr ""
+
+#: classes/getbookingswp.class.php:847
+msgid "Password"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1060
+msgid "Search Again"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1061
+msgid "<< Back"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1062
+msgid "Book More"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1080
+msgid "January"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1081
+msgid "February"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1082
+msgid "March"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1083
+msgid "April"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1084 classes/getbookingswp.class.php:1098
+msgid "May"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1085
+msgid "June"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1086
+msgid "July"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1087
+msgid "August"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1088
+msgid "September"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1089
+msgid "October"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1090
+msgid "November"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1091
+msgid "December"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1094
+msgid "Jan"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1095
+msgid "Feb"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1096
+msgid "Mar"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1097
+msgid "Apr"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1099
+msgid "Jun"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1100
+msgid "Jul"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1101
+msgid "Aug"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1102
+msgid "Sep"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1103
+msgid "Oct"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1104
+msgid "Nov"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1105
+msgid "Dec"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1112
+msgid "Thursday"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1117
+msgid "Sun"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1118
+msgid "Mon"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1119
+msgid "Tue"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1120
+msgid "Wed"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1121
+msgid "Thu"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1122
+msgid "Fri"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1123
+msgid "Sat"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1126
+msgid "Su"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1127
+msgid "Mo"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1128
+msgid "Tu"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1129
+msgid "We"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1130
+msgid "Th"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1131
+msgid "Fr"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1132
+msgid "Sa"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1197
+msgid "Sign Up"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1276
+msgid "Fields with (*) are required"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1277
+msgid "Account Info"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1425
+msgid "Your Last Name"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1430
+msgid "Type your last name"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1454 classes/getbookingswp.class.php:1460
+msgid "Re-type your email"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1746
+msgid ""
+"If you would like to change the password type a new one. Otherwise leave "
+"this blank."
+msgstr ""
+
+#: classes/getbookingswp.class.php:1750
+msgid "Type your new password again."
+msgstr ""
+
+#: classes/getbookingswp.class.php:1784
+msgid "Payment Details"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1800
+msgid "Persons:"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1832
+msgid "Available:"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1837
+msgid "Total:"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1849
+msgid "Select Payment Method"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1862
+msgid "I will pay locally"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1884
+msgid "Pay with PayPal"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1902
+msgid "Pay with Credit Card"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1920
+msgid "Credit Card"
+msgstr ""
+
+#: classes/getbookingswp.class.php:1952 classes/getbookingswp.class.php:1988
+msgid "Receive Daily Updates "
+msgstr ""
+
+#: classes/getbookingswp.class.php:1993
+msgid "Yes, I want to receive daily updates. "
+msgstr ""
+
+#: classes/getbookingswp.class.php:2049 classes/getbookingswp.class.php:2058
+#: classes/user.php:1028
+msgid "Submit"
+msgstr ""
+
+#: classes/getbookingswp.class.php:2117 classes/getbookingswp.class.php:2189
+msgid "Time"
+msgstr ""
+
+#: classes/getbookingswp.class.php:2121
+msgid "Details & Payment"
+msgstr ""
+
+#: classes/getbookingswp.class.php:2125
+msgid "Cart"
+msgstr ""
+
+#: classes/getbookingswp.class.php:2129
+msgid "Thank you"
+msgstr ""
+
+#: classes/getbookingswp.class.php:2137
+msgid "Select Location"
+msgstr ""
+
+#: classes/getbookingswp.class.php:2153
+msgid "Check-out date"
+msgstr ""
+
+#: classes/getbookingswp.class.php:2161
+msgid ""
+"Please select service, date and provider then click on the Find Appointments "
+"button."
+msgstr ""
+
+#: classes/getbookingswp.class.php:2165
+msgid ""
+"Below you can find a list of available time slots for "
+"<strong>[GETBWP_SERVICE]</strong> by <strong>[GETBWP_PROVIDER]</strong>."
+msgstr ""
+
+#: classes/getbookingswp.class.php:2169
+msgid ""
+"You're booking <strong>[GETBWP_SERVICE]</strong> by "
+"<strong>[GETBWP_PROVIDER]</strong> at <strong>[GETBWP_AT]</strong> on "
+"<strong>[GETBWP_DAY]</strong>"
+msgstr ""
+
+#: classes/getbookingswp.class.php:2173
+msgid "Please fill out the following form to confirm your purchase "
+msgstr ""
+
+#: classes/getbookingswp.class.php:2197
+msgid "Qty"
+msgstr ""
+
+#: classes/getbookingswp.class.php:2201 classes/service.php:2887
+#: classes/service.php:3495 classes/service.php:3601 classes/user.php:1379
+msgid "Price"
+msgstr ""
+
+#: classes/getbookingswp.class.php:2205
+msgid "Action"
+msgstr ""
+
+#: classes/getbookingswp.class.php:2326
+msgid "Connect with "
+msgstr ""
+
+#: classes/order.php:782
+msgid "You have no orders."
+msgstr ""
+
+#: classes/order.php:797
+msgid "Order #"
+msgstr ""
+
+#: classes/order.php:800
+msgid "Package"
+msgstr ""
+
+#: classes/paypal.php:512
+msgid " - Purchase Details:"
+msgstr ""
+
+#: classes/register.php:85
+msgid "<strong>ERROR:</strong> Please enter a username."
+msgstr ""
+
+#: classes/register.php:98
+msgid "<strong>ERROR:</strong> Please type your e-mail address."
+msgstr ""
+
+#: classes/register.php:102
+msgid "<strong>ERROR:</strong> The email address isn't correct."
+msgstr ""
+
+#: classes/register.php:127
+msgid "<strong>ERROR:</strong> Please complete Captcha Test first."
+msgstr ""
+
+#: classes/register.php:839
+msgid "Booking Meetings"
+msgstr ""
+
+#: classes/register.php:840
+msgid "Booking ID:"
+msgstr ""
+
+#: classes/register.php:1244
+msgid "Registration successful. Please check your email."
+msgstr ""
+
+#: classes/service.php:671
+msgid "Thank you for your booking. Please check your email."
+msgstr ""
+
+#: classes/service.php:678
+msgid "Your booking number is"
+msgstr ""
+
+#: classes/service.php:750 classes/service.php:1050
+msgid "Below you can find a list of available time slots for "
+msgstr ""
+
+#: classes/service.php:750 classes/service.php:1050
+msgid "by "
+msgstr ""
+
+#: classes/service.php:873 classes/service.php:1178 classes/service.php:1633
+#: classes/service.php:2106
+msgid "Unavailable"
+msgstr ""
+
+#: classes/service.php:878
+msgid "Select Time Slot"
+msgstr ""
+
+#: classes/service.php:916 classes/service.php:1233 classes/service.php:1725
+#: classes/service.php:2210
+msgid "This Provider doesn't offer this service."
+msgstr ""
+
+#: classes/service.php:954 classes/service.php:3314 classes/service.php:3390
+msgid "OFF"
+msgstr ""
+
+#: classes/service.php:1184 classes/service.php:4369
+msgid "Select"
+msgstr ""
+
+#: classes/service.php:1404
+msgid "Please select a provider."
+msgstr ""
+
+#: classes/service.php:1601
+msgid "Morning"
+msgstr ""
+
+#: classes/service.php:1607
+msgid "Afternoon"
+msgstr ""
+
+#: classes/service.php:1613
+msgid "Night"
+msgstr ""
+
+#: classes/service.php:1641 classes/service.php:2115
+msgid "Book Appointment"
+msgstr ""
+
+#: classes/service.php:1706
+msgid "There are no available time slots on this day."
+msgstr ""
+
+#: classes/service.php:2440
+#, php-format
+msgid "%s available "
+msgstr ""
+
+#: classes/service.php:2836
+msgid ""
+"Here you can update the information of this service. Once you have modified "
+"the information click on the save button."
+msgstr ""
+
+#: classes/service.php:2840
+msgid ""
+"Here you can create a new service. Once you have filled in the form click on "
+"the save button."
+msgstr ""
+
+#: classes/service.php:2868 classes/service.php:3493
+msgid "Title"
+msgstr ""
+
+#: classes/service.php:2870
+msgid "Background Color"
+msgstr ""
+
+#: classes/service.php:2872
+msgid "Font Color"
+msgstr ""
+
+#: classes/service.php:2875 classes/service.php:3494
+msgid "Duration"
+msgstr ""
+
+#: classes/service.php:2882
+msgid "Padding time (before and after)"
+msgstr ""
+
+#: classes/service.php:2892 classes/service.php:3496 classes/user.php:238
+#: classes/user.php:1380
+msgid "Capacity"
+msgstr ""
+
+#: classes/service.php:2894 classes/service.php:3497
+msgid "Category"
+msgstr ""
+
+#: classes/service.php:2940 classes/service.php:2993
+msgid "Allow Group Bookings?"
+msgstr ""
+
+#: classes/service.php:2947
+msgid "Zoom Meeting?"
+msgstr ""
+
+#: classes/service.php:2955
+msgid "Is Private?"
+msgstr ""
+
+#: classes/service.php:2981
+msgid "Calculation Way"
+msgstr ""
+
+#: classes/service.php:2982
+msgid "Common Method (Quantity X Price)"
+msgstr ""
+
+#: classes/service.php:2983
+msgid "Sum All Prices"
+msgstr ""
+
+#: classes/service.php:2984
+msgid "Total Bassed on Quantity"
+msgstr ""
+
+#: classes/service.php:2993
+msgid " Available on Premium Versions"
+msgstr ""
+
+#: classes/service.php:3071 classes/service.php:3094
+msgid "Name:"
+msgstr ""
+
+#: classes/service.php:3096
+msgid "Last Name:"
+msgstr ""
+
+#: classes/service.php:3098
+msgid "Email:"
+msgstr ""
+
+#: classes/service.php:3131 classes/service.php:3179
+msgid "Friday "
+msgstr ""
+
+#: classes/service.php:3135 classes/service.php:3183
+msgid "Saturday  "
+msgstr ""
+
+#: classes/service.php:3139 classes/service.php:3187
+msgid "Sunday "
+msgstr ""
+
+#: classes/service.php:3438
+msgid "Categories"
+msgstr ""
+
+#: classes/service.php:3439
+msgid "Add New Category"
+msgstr ""
+
+#: classes/service.php:3456
+msgid "There are no categories"
+msgstr ""
+
+#: classes/service.php:3478
+msgid "Add New Service"
+msgstr ""
+
+#: classes/service.php:3492
+msgid "ID"
+msgstr ""
+
+#: classes/service.php:3542
+msgid "There are no services within this category"
+msgstr ""
+
+#: classes/service.php:3600
+msgid "Person/s"
+msgstr ""
+
+#: classes/service.php:3617
+msgid " Person"
+msgstr ""
+
+#: classes/service.php:3810 classes/service.php:3903 classes/service.php:4163
+#: classes/user.php:1756
+msgid "Any"
+msgstr ""
+
+#: classes/service.php:4057
+msgid "Avaliable Staff Members for this Service"
+msgstr ""
+
+#: classes/service.php:4090
+msgid "SELECT"
+msgstr ""
+
+#: classes/service.php:4311
+msgid "Avaliable Services"
+msgstr ""
+
+#: classes/service.php:4418
+msgid "Select a Service"
+msgstr ""
+
+#: classes/service.php:4475
+msgid "All Day "
+msgstr ""
+
+#: classes/user.php:93
+msgid ""
+"Here you can add new staff members. Please fill in with the full name and "
+"email then click on the Add button."
+msgstr ""
+
+#: classes/user.php:103 classes/user.php:1007
+msgid "Full Name"
+msgstr ""
+
+#: classes/user.php:105 classes/user.php:2935
+msgid "Email"
+msgstr ""
+
+#: classes/user.php:106
+msgid "Username"
+msgstr ""
+
+#: classes/user.php:111
+msgid ""
+"If you need to add more than one staff member, please consider upgrading "
+"your plugin. The lite version allows you to have only one Staff Member. "
+msgstr ""
+
+#: classes/user.php:237
+msgid "Signed up"
+msgstr ""
+
+#: classes/user.php:404 classes/user.php:484
+msgid ""
+"<strong>ERROR:</strong> This username is already registered. Please choose "
+"another one."
+msgstr ""
+
+#: classes/user.php:408 classes/user.php:488
+msgid "<strong>ERROR:</strong> All fields are mandatory."
+msgstr ""
+
+#: classes/user.php:480 classes/user.php:549
+msgid ""
+"<strong>ERROR:</strong> This email is already registered. Please choose "
+"another one."
+msgstr ""
+
+#: classes/user.php:536
+msgid "<strong>ERROR:</strong> Please input an email address."
+msgstr ""
+
+#: classes/user.php:541
+msgid "<strong>ERROR:</strong> Please input a Full Name."
+msgstr ""
+
+#: classes/user.php:575
+msgid "<strong>Done!</strong>"
+msgstr ""
+
+#: classes/user.php:657
+msgid "Details"
+msgstr ""
+
+#: classes/user.php:665
+msgid "ID: "
+msgstr ""
+
+#: classes/user.php:675
+msgid "Account & Backend"
+msgstr ""
+
+#: classes/user.php:701
+msgid "Schedule"
+msgstr ""
+
+#: classes/user.php:713
+msgid "Special Schedule"
+msgstr ""
+
+#: classes/user.php:727
+msgid ""
+"Please consider upgrading your plugin if you need to set special rules for "
+"your schedule. This feature allows you to set your availability on a "
+"particular day in advance."
+msgstr ""
+
+#: classes/user.php:736
+msgid "Breaks"
+msgstr ""
+
+#: classes/user.php:752
+msgid "Locations"
+msgstr ""
+
+#: classes/user.php:766
+msgid ""
+"Please consider upgrading your plugin if you need to manage multiple "
+"locations."
+msgstr ""
+
+#: classes/user.php:778
+msgid "Days off"
+msgstr ""
+
+#: classes/user.php:792
+msgid "Please consider upgrading your plugin if you need to add breaks."
+msgstr ""
+
+#: classes/user.php:856
+msgid "Backend Access?"
+msgstr ""
+
+#: classes/user.php:861
+msgid "Can Update Picture?"
+msgstr ""
+
+#: classes/user.php:866
+msgid "Can Reschedule Appointments?"
+msgstr ""
+
+#: classes/user.php:871
+msgid "Can Add Notes?"
+msgstr ""
+
+#: classes/user.php:876
+msgid "Update Booking Details?"
+msgstr ""
+
+#: classes/user.php:885
+msgid "Profile Customization"
+msgstr ""
+
+#: classes/user.php:888
+msgid "Header Background Color"
+msgstr ""
+
+#: classes/user.php:894
+msgid "Header Font Color"
+msgstr ""
+
+#: classes/user.php:899
+msgid "Save Settings"
+msgstr ""
+
+#: classes/user.php:903
+msgid ""
+"You can use the following button to send a password reset link to this staff "
+"member. The reset will allow the staff meber to login and manage their "
+"appointments"
+msgstr ""
+
+#: classes/user.php:906
+msgid "Send Password Reset Link"
+msgstr ""
+
+#: classes/user.php:914
+msgid ""
+"You haven't set a password reset page, this is very imporant. Click on Staff "
+"& Client Account link and set a page for the reset password shortcode. "
+msgstr ""
+
+#: classes/user.php:999
+msgid "Update Pic"
+msgstr ""
+
+#: classes/user.php:1008
+msgid "Your Full Name"
+msgstr ""
+
+#: classes/user.php:1012
+msgid "Profession"
+msgstr ""
+
+#: classes/user.php:1013
+msgid "Your Profession"
+msgstr ""
+
+#: classes/user.php:1017
+msgid "Phone"
+msgstr ""
+
+#: classes/user.php:1018
+msgid "Your Phone Number"
+msgstr ""
+
+#: classes/user.php:1023
+msgid "Your Email"
+msgstr ""
+
+#: classes/user.php:1055
+msgid ""
+"Please consider upgrading your plugin if you wish to use Google Calendar "
+"features."
+msgstr ""
+
+#: classes/user.php:1061
+msgid "Zoom Meetings"
+msgstr ""
+
+#: classes/user.php:1070
+msgid ""
+"Please consider upgrading your plugin if you wish to use Zoom Meetings "
+"features."
+msgstr ""
+
+#: classes/user.php:1098 classes/user.php:1112
+msgid "Please set client ID and client Secret!"
+msgstr ""
+
+#: classes/user.php:1117
+msgid "Select Your Calendar:"
+msgstr ""
+
+#: classes/user.php:1120
+msgid "SET CALENDAR"
+msgstr ""
+
+#: classes/user.php:1127
+msgid "IMPORTANT: You haven't set a calendar, yet."
+msgstr ""
+
+#: classes/user.php:1129
+msgid ""
+"If you don't set a calendar the primary calendar will be used by default. "
+msgstr ""
+
+#: classes/user.php:1133
+msgid ""
+"If you don't see your new calendars, plase disconnect and connect again. "
+msgstr ""
+
+#: classes/user.php:1158
+msgid "Your calendar has been set! "
+msgstr ""
+
+#: classes/user.php:1190
+msgid "If the calendars list is empty, please disconnect and connect again. "
+msgstr ""
+
+#: classes/user.php:1624
+msgid "All Staff Members"
+msgstr ""
+
+#: classes/user.php:1681
+msgid "Select User"
+msgstr ""
+
+#: classes/user.php:1882
+msgid "« Previous"
+msgstr ""
+
+#: classes/user.php:1883
+msgid "Next »"
+msgstr ""
+
+#: classes/user.php:1955
+msgid "Add New Staff Member"
+msgstr ""
+
+#: classes/user.php:1986
+msgid "There are no staff members."
+msgstr ""
+
+#: classes/user.php:2113
+msgid "Drop Image here"
+msgstr ""
+
+#: classes/user.php:2119
+msgid "Select Image"
+msgstr ""
+
+#: classes/user.php:2124
+msgid "Remove"
+msgstr ""
+
+#: classes/user.php:2177
+msgid "Allowed Files"
+msgstr ""
+
+#: classes/user.php:2234
+msgid "You may only upload one image at a time!"
+msgstr ""
+
+#: classes/user.php:2249
+msgid "The file you selected exceeds the maximum filesize limit."
+msgstr ""
+
+#: classes/user.php:2544
+msgid "Crop & Save"
+msgstr ""
+
+#: classes/user.php:2932
+msgid "Client Data"
+msgstr ""
+
+#: classes/user.php:2934
+msgid "Name"
+msgstr ""
+
+#: classes/user.php:2957
+msgid "No results found"
+msgstr ""
+
+#: index.php:46
+msgid "Go Pro"
+msgstr ""
+
+#: templates/appointment.php:56
+msgid "Please wait..."
+msgstr ""

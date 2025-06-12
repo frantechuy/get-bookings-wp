@@ -1,0 +1,2661 @@
+/*Admin - Main*/
+
+#getbwp-service-editor-box{ display:none}
+#getbwp-staff-editor-box{ display:none}
+#getbwp-appointment-new-box{ display:none; }
+#getbwp-new-app-conf-message{ display:none; }
+#getbwp-new-payment-cont{ display:none; }
+#getbwp-breaks-new-box{ display:none; }
+#getbwp-appointment-list{ display:none; }
+#getbwp-appointment-change-status{ display:none; }
+#getbwp-loading-animation-acc-setting-staff{ display:none; }
+#getbwp-loading-animation-acc-resetlink-staff{ display:none; }
+
+
+
+.nav-tab{ background:#FFF !important}
+
+.nav-tab-active, .nav-tab-active:focus, .nav-tab-active:focus:active, .nav-tab-active:hover{ background: #EFEFEF !important}
+
+.bp-messaging-hidden{ display:none}
+
+.getbwp-pro-tab-bubble { 
+    background-color: #E55237 !important;
+    color:white; border:solid 1px #df4a2f  
+
+}
+
+.getbwp-pro-tab-bubble:hover { 
+    background-color: #E55237;
+    color:white;  border:solid 1px #df4a2f 
+
+}
+
+.getbwp-backend-info-tool{
+	
+}
+
+.welcome-panel-bookingform1{
+    text-align: center;
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+}
+
+.welcome-panel-bookingform1 img{   
+    max-width: 500px;
+}
+
+.welcome-panel-bookingform2{
+    text-align: center;
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+}
+
+.welcome-panel-bookingform2 img{   
+    max-width: 500px;
+}
+
+
+h3.getbwp-bbokings{
+    font-size: 1.3rem;
+    text-align: center !important;
+}
+
+.getbwp-backend-info-tool i{
+	color:#F00;
+	font-size:16px;
+	
+}
+
+
+.getbwp-f-welcome-panel-content {
+
+    justify-content:normal;
+}
+
+
+#getbwp-loading-animation-business-hours{ display:none; }
+
+.bookingultra-admin-contain .avatar {
+border-radius: 50%;
+-moz-border-radius: 50%;
+-webkit-border-radius: 50%;
+}
+
+span.getbwp-main-close-open-tab{ position:absolute; right:5px; top:10px}
+span.getbwp-main-close-open-tab a{ font-size:18px; color:#474747}
+span.getbwp-main-close-open-tab i{ font-size:18px}
+
+.getbwp-buy-pro-btn{
+
+    background-color: #00529B;
+}
+
+.getbwp-plugins-gopro{
+
+    color:#C40000 ;
+    font-weight: bold;
+}
+
+.getbwp-zoom-ico{
+
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.getbwp-appointments-getting-started {
+
+}
+
+.getbwp-adm-frm-daysofflst {
+	width:200px;
+
+}
+
+.getbwp-adm-frm-daysofflst ul {
+
+}
+
+.getbwp-adm-frm-daysofflst li {
+	position:relative;
+	margin:10px;
+
+}
+
+.getbwp-adm-frm-specialschedule {
+	width:300px;
+
+}
+
+.getbwp-adm-frm-specialschedule ul {
+
+}
+
+.getbwp-adm-frm-specialschedule li {
+	position:relative;
+	margin:10px;
+
+}
+
+/*New Dashboard*/
+.getbwp-main-sales-summary { text-align:center }
+.getbwp-main-sales-summary .getbwp-main-dashcol-1{ display:inline-block; overflow:hidden; position:relative; width:99%; vertical-align:top; text-align: center}
+.getbwp-main-sales-summary .getbwp-main-dashcol-2{ display:inline-block; width:99%; vertical-align:top }
+.getbwp-main-sales-summary .getbwp-main-dashcol-3{ display:inline-block ; width:99%; vertical-align:top}
+
+
+
+.getbwp-main-sales-summary .getbwp-main-dashcol-2 .getbwp-main-quick-summary { text-align:center }
+
+.getbwp-main-sales-summary .getbwp-main-dashcol-2 .getbwp-main-quick-summary p.bupquickappbtn{ text-align:right; color:#666 }
+.getbwp-main-sales-summary .getbwp-main-dashcol-2 .getbwp-main-quick-summary p.bupquickappbtn a{ color:#666; text-decoration:none }
+
+.getbwp-main-sales-summary .getbwp-main-dashcol-2 .getbwp-main-quick-summary a span{ margin-right:5px; }
+
+.getbwp-main-sales-summary .getbwp-main-dashcol-2 .getbwp-main-quick-summary ul{ padding:5px; background:#FBFBFB; margin:10px 0px 10px 0px }
+.getbwp-main-sales-summary .getbwp-main-dashcol-2 .getbwp-main-quick-summary ul li{
+		display: inline-block;
+		height: 90px;
+		margin: 0px 0px 0px 5px;
+		background: #FFFFFF;
+		border: none;
+		vertical-align: top;
+		width: 19%;
+		padding: 5px 0 5px 0px; }
+.getbwp-main-sales-summary .getbwp-main-dashcol-2 .getbwp-main-quick-summary ul li a{ display:block; width:100%; height:100%; text-decoration:none }
+.getbwp-main-sales-summary .getbwp-main-dashcol-2 .getbwp-main-quick-summary ul li p{ 
+    font-size:3rem; 
+    margin:0px; 
+    font-weight:700;
+    text-align:center 
+}
+.getbwp-main-sales-summary .getbwp-main-dashcol-2 .getbwp-main-quick-summary ul li small{ font-size:1.2rem; color:#999 }
+
+
+
+.getbwp-main-sales-summary .getbwp-main-blocksec {    
+    margin: 14px 0;
+    overflow: auto;
+    padding: 0px;
+    position: relative;
+}
+
+.getbwp-main-sales-summary .getbwp-main-blocksec .bupdashsum{ text-align:center }
+
+.getbwp-main-sales-summary .getbwp-main-blocksec .bupdashsum ul{ padding:5px; background:#FBFBFB; margin:10px 0px 10px 0px }
+.getbwp-main-sales-summary .getbwp-main-blocksec .bupdashsum ul li{
+		display: inline-block;
+		height: 70px;
+		margin: 0px 0px 0px 5px;
+		background: #FFFFFF;
+		border: solid 1px #F8F8F8;
+		vertical-align: top;
+		width: 22%;
+		padding: 5px 0 5px 0px; }
+.getbwp-main-sales-summary .getbwp-main-blocksec .bupdashsum ul li a{ display:block; width:100%; height:100%; text-decoration:none }
+.getbwp-main-sales-summary .getbwp-main-blocksec .bupdashsum ul li p{ font-size:30px; 
+margin:0px; font-weight:600; text-align:center }
+.getbwp-main-sales-summary .getbwp-main-blocksec .bupdashsum ul li small{ font-size:11px; color:#999 }
+
+
+
+
+.getbwp-main-sales-summary .getbwp-main-dashcol-3 ul{ padding:5px; background:#FBFBFB; margin:10px 0px 10px 0px }
+.getbwp-main-sales-summary .getbwp-main-dashcol-3 ul li{ 
+	display: inline-block;
+	height:45px;
+	margin: 0px 0px 0px 5px;
+	background: #FFFFFF;
+	border: solid 1px #F8F8F8;
+	vertical-align: top;
+	width: 45%;
+	padding: 0px 0px 10px 0px;}
+.getbwp-main-sales-summary .getbwp-main-dashcol-3 ul li a{ display:block; width:100%; height:100%; text-decoration:none }
+.getbwp-main-sales-summary .getbwp-main-dashcol-3 ul li p{ font-size:20px; margin:0px; line-height:18px;font-weight:20; text-align:center }
+.getbwp-main-sales-summary .getbwp-main-dashcol-3 ul li small{ font-size:11px; color:#999 }
+
+
+
+
+
+/**/
+
+
+
+p.getbwp-extra-features{ font-size:0.9em; line-height:10px; text-align:right}
+p.getbwp-timestamp-features{ font-size:11px; line-height:10px; text-align:right}
+.getbwp-appointments-getting-started li span{ margin-right:5px}
+.getbwp-appointments-getting-started a { text-decoration:none}
+.getbwp-appointments-getting-started li i{ color:#333}
+
+.getbwp-appointment-status-update{ margin-right:5px} 
+.getbwp-appointment-status-update ul{ }
+.getbwp-appointment-status-update li{ margin:5px 5px 5px 5px; list-style:none}
+.getbwp-appointment-status-update li span{ margin-left:5px}
+.getbwp-appointment-status-update a { text-decoration:none}
+.getbwp-appointment-status-update li i{ color:#333; font-size:25px}
+
+span.getbwp-app-legend-pending{ color: #FFCC00 ; font-weight:600}
+span.getbwp-app-legend-approved{ color: #090; font-weight:600}
+span.getbwp-app-legend-cancelled{ color: #F00; font-weight:600}
+span.getbwp-app-legend-noshow{ color: #006; font-weight:600}
+
+
+.getbwp-common-block {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    font-size: 13px;
+    line-height: 2.1em;
+    margin: 5px 0;
+    overflow: auto;
+  
+    position: relative;
+	height:auto;	
+	
+   
+	width:99%;
+}
+
+/**/
+.getbwp-button-submit{ 
+
+ 
+ border: none;
+ background: #999 none repeat scroll 0 0;
+ color:#fff;
+ font-size:12px;
+ line-height:32px;
+ padding:0 12px;
+ height:auto;
+ text-transform:uppercase;
+ text-decoration:none;
+ cursor:pointer;	
+
+}
+
+.getbwp-button-submit:hover{ 
+
+	background: #ddd none repeat scroll 0 0;
+    border: none;
+    box-shadow: none;
+    color: #000;
+    height: auto;
+    text-shadow: none;
+}
+
+.getbwp-button-submit{ transition: all 0.1s ease-out 0s;}
+
+/**/
+.getbwp-button-change-avatar{ 
+
+ border: none;
+ background: #ddd none repeat scroll 0 0;
+ color:#000;
+ font-size:12px;
+ line-height:30px;
+ width:100px;
+ padding:0 3px;
+ height:30px;
+ text-transform:uppercase;
+ text-decoration:none;
+ cursor:pointer;	
+
+}
+
+.getbwp-button-change-avatar:hover{ 
+
+	background: #ddd none repeat scroll 0 0;
+    border:none;
+    box-shadow: none;
+    color: #000;
+    text-shadow: none;
+}
+
+.getbwp-button-change-avatar{ transition: all 0.1s ease-out 0s;}
+/**/
+
+.getbwp-button-delete-avatar{ 
+
+ border: none;
+ background: #F00 repeat scroll 0 0;
+ color: #FFF;
+ font-size:12px;
+ line-height:30px;
+ width:140px;
+ padding:0 3px;
+ height:30px;
+ text-transform:uppercase;
+ text-decoration:none;
+ cursor:pointer;	
+
+}
+
+.getbwp-button-delete-avatar:hover{ 
+
+	background: #C40000 none repeat scroll 0 0;
+    border:none;
+    box-shadow: none;
+    color: #FFF;
+    text-shadow: none;
+}
+
+.getbwp-button-delete-avatar{ transition: all 0.1s ease-out 0s;}
+
+.getbwp-button-upload-avatar{ 
+
+ border: none;
+ background: #ddd none repeat scroll 0 0;
+ color:#000;
+ font-size:12px;
+ line-height:30px;
+ width:140px;
+ padding:0 3px;
+ height:30px;
+ text-transform:uppercase;
+ text-decoration:none;
+ cursor:pointer;	
+
+}
+
+.getbwp-button-upload-avatar:hover{ 
+
+	background: #ddd none repeat scroll 0 0;
+    border:none;
+    box-shadow: none;
+    color: #000;
+    text-shadow: none;
+}
+
+.getbwp-button-upload-avatar{ transition: all 0.1s ease-out 0s;}
+
+.getbwp-button-submit-changes{ 
+
+ border: none;
+ background: #ddd none repeat scroll 0 0;
+ color:#000;
+ font-size:12px;
+ line-height:32px;
+ padding:0 12px;
+ height:auto;
+ text-transform:uppercase;
+ text-decoration:none;
+ cursor:pointer;	
+
+}
+
+.getbwp-button-submit-changes:hover{ 
+
+	background: #CCC     none repeat scroll 0 0;
+    border: none;
+    box-shadow: none;
+    color: #000;
+    height: auto;
+    text-shadow: none;
+}
+
+.getbwp-button-submit-changes{ transition: all 0.1s ease-out 0s;}
+/**/
+
+.getbwp-button-submit-breaks{ 
+
+ border: 1px solid  #8A8A8A;
+ background: #ddd none repeat scroll 0 0;
+ color:#000;
+ font-size:12px;
+ line-height:22px;
+ padding:0 12px;
+ height:auto;
+ text-transform:uppercase;
+ text-decoration:none;
+ cursor:pointer;
+ margin:0px 5px 0px 5px
+
+}
+
+.getbwp-button-submit-breaks:hover{ 
+
+	background: #ddd none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    box-shadow: none;
+    color: #000;
+    height: auto;
+    text-shadow: none;
+}
+
+.getbwp-button-submit-breaks{ transition: all 0.1s ease-out 0s;}
+
+ul.getbwp-time-slots-available-list .getbwp-button{ 
+
+ 
+ border: none;
+ background: #848484 none repeat scroll 0 0;
+ color:#fff;
+ font-size:12px;
+ line-height:32px;
+ padding:0 10px;
+ height:auto;
+ text-transform:uppercase;
+ text-decoration:none;
+ cursor:pointer;
+ text-align:center;
+ 
+
+}
+
+ul.getbwp-time-slots-available-list .getbwp-button:hover{ 
+
+	background: #ddd none repeat scroll 0 0;
+    border: none;
+    box-shadow: none;
+    color: #5A5354 ;
+    height: auto;
+    text-shadow: none;
+}
+
+ul.getbwp-time-slots-available-list .getbwp-button{ transition: all 0.1s ease-out 0s;}
+
+
+ul.getbwp-time-slots-available-list .getbwp-button-blocked{ 
+
+ border: 1px solid #ddd;
+ background: #ddd none repeat scroll 0 0;
+ color: #aaa !important;
+ font-size:12px;
+ line-height:32px;
+ padding:0 12px;
+ height:auto;
+ text-transform:uppercase;
+ text-decoration:none;
+ cursor: default;
+ 
+}
+
+.getbwp-div-for-avatar-upload{
+	text-align:left;
+	margin:5px auto 5px auto;
+}
+
+.getbwp-div-for-avatar-upload span{
+	
+	margin:0px 5px 0px 0px;
+}
+
+.getbwp-adm-schedule-info-bar {
+    background: #F6F6F6 !important;
+   
+
+}
+
+
+.getbwp-adm-bar-opt-edit {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    font-size: 13px;
+    line-height: 2.1em;
+    margin: 5px 0;
+    overflow: auto;
+    padding: 5px 10px 5px;
+    position: relative;
+	height:auto;	
+	margin-left: 13px;
+    max-width: 1000px;
+	/*width:700px;*/
+}
+
+.getbwp-adm-bar-opt-edit p{ margin:0px;
+}
+
+.getbwp-go-pro-topbutton {
+    right: 15px;
+    position: absolute;
+
+}
+
+.getbwp-btn-red-pro{
+    
+    background: #f7d2d2 !important;
+    color: #2e2b2b !important;
+    font-size: 1.1rem !important;
+    font-weight: bold;
+    border: solid 1px #c6c6c6 !important;
+
+}
+
+.getbwp-top-main-bar {
+    width: 100%;
+    position: relative;
+    padding: 10px 0px 5px 0px;
+    border-bottom: solid 1px #f3f3f3;
+    background: white;
+    border-radius: 0.2rem;
+	    
+}
+
+.getbwp-top-main-bar .getbwp-top-main-texts{
+    position: relative;  
+	    
+}
+
+.getbwp-top-main-bar .getbwp-top-main-plugin-name{
+    position: absolute; 
+    left: 5px;
+    top: 0px; 
+	    
+}
+
+.getbwp-top-main-bar .getbwp-top-main-plugin-name a{
+    color: #181818;
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+
+.getbwp-top-main-bar .getbwp-top-main-texts ul{
+
+    text-align: right;
+    padding: 2px 5px 0px 0px;
+    margin: 0px;
+}
+
+.getbwp-top-main-bar .getbwp-top-main-texts ul li{
+    display: inline-block;
+    margin: 0px 5px 0px 5px;
+    text-align: center;
+    
+    border: solid 1px whitesmoke;
+    padding: 5px;
+    border-radius: 0.2rem;
+    background: #fafafac9;
+    width: 80px;
+	    
+}
+
+.getbwp-top-main-bar .getbwp-top-main-texts ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #848484;
+    display: block;	    
+}
+
+.getbwp-top-main-bar .getbwp-top-main-texts ul li a p{
+
+    font-size: 12px;
+
+}
+
+.getbwp-top-main-bar .getbwp-top-main-texts ul li.pro{
+    color: rgb(209, 23, 23);
+    background-color: #fcfcfc;
+        
+ }
+
+ .getbwp-top-main-bar i.pro{
+    color:#10ee04;
+   
+        
+ }
+
+
+.getbwp-top-main-bar h2{
+    font-size: 1.6em;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 700
+    
+   
+}
+
+.getbwp-top-main-bar table { 
+    
+    border: 0;margin: 5px
+	    
+}
+
+.getbwp-top-main-bar table td{
+    font-size: 1.1em; 
+    vertical-align: top;
+    
+	    
+}
+
+
+
+
+/*Top Tool Bar*/
+
+.getbwp-main-tool-bar {
+	
+	width:99%;
+	display:inline-block;	
+	padding:1px;
+	margin:2px 0px 2px 0px;
+	vertical-align:top;
+	text-align:right;
+   
+	    
+}
+
+.getbwp-main-tool-bar ul{
+	
+	
+	    
+}
+
+.getbwp-main-tool-bar li{
+    
+    width: 140px;
+    padding: 5px;
+  
+   
+    border: solid 1px #e1e1e1ad;
+    display:inline-block;
+    vertical-align:top;
+    margin-left: 0.5em;
+    text-align: center;
+    border-radius: 5%;
+    -webkit-border-radius 5%;
+    -moz-border-radius 5%;
+	
+	
+	    
+}
+
+.getbwp-main-tool-bar li.newappo{
+    background-color: #e5e6e630
+    
+   
+	
+	
+	    
+}
+
+.getbwp-main-tool-bar li:hover{ 
+    
+    background-color: #EAEAEA
+ 	    
+}
+
+.getbwp-main-tool-bar li a{
+    display: block;
+    cursor: pointer;
+    color: #4E4E4E;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 0px
+	    
+}
+
+.getbwp-main-tool-bar li a span{
+    
+    margin-right: 0.5em
+ 	    
+}
+
+
+
+
+.getbwp-main-tool-bar li a.active{
+    background-color: #EAEAEA
+	    
+}
+
+
+
+/*Filters*/
+
+.getbwp-calendar-filters {
+	
+	width:99%;
+	display:inline-block;	
+	padding:5px;
+	margin:10px 0px 10px 0px;
+	vertical-align:top;
+	text-align:right
+	    
+}
+
+.getbwp-calendar-filters  input[type="text"],  .getbwp-calendar-filters select{	
+	
+	height:33px;
+	margin:0 5px 0 5px;
+	padding:0px;
+    width: 150px
+	
+	    
+}
+
+
+
+/*Filter bar By Staff*/
+.getbwp-calendar-staff-bar-filter {
+	
+	
+	display:inline-flex;	
+	padding:5px;
+	margin:5px 0px 5px 0px;
+	vertical-align:top;
+	text-align:left;
+    overflow: auto;
+    width: 98%
+    
+	    
+}
+
+.getbwp-calendar-staff-bar-filter ul{
+    display: flex
+	
+	
+	    
+}
+
+.getbwp-calendar-staff-bar-filter li{
+    
+    width: 120px;
+    min-height: 120px;
+    max-height: 160px;
+    /*max-height: 140px;*/
+    border: solid 1px #e1e1e1ad;
+    display:inline-flex;
+    vertical-align:top;
+    margin-right: 0.5em;
+    text-align: center;
+    border-radius: 5%;
+    -webkit-border-radius 5%;
+    -moz-border-radius 5%;
+	
+	
+	    
+}
+
+.getbwp-calendar-staff-bar-filter i{
+    
+    font-size: 1.8em !important;
+    
+ 
+}
+
+.getbwp-calendar-staff-bar-filter li.buu-all{
+    
+    width: 120px;
+    min-height: 100px;
+      
+	    
+}
+
+
+.getbwp-calendar-staff-bar-filter li:hover{ 
+    
+    background-color: #EAEAEA
+ 	    
+}
+
+.getbwp-calendar-staff-bar-filter li a{
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    color: #4E4E4E;
+    font-size: 14px;
+    text-decoration: none;
+    height: 100%
+	    
+}
+
+span.getbwp-field-separator{
+    color: #959595;
+}
+
+.getbwp-calendar-staff-bar-filter li a.active{
+    background-color: #EEE
+	    
+}
+
+.getbwp-calendar-staff-bar-filter .getbwp-st-photo{
+    padding: 0.5em;
+    margin-top: 5px;
+    min-height: 60px
+	    
+}
+
+.getbwp-calendar-staff-bar-filter .getbwp-st-name{
+  
+    margin: 0px;
+    
+	    
+}
+
+
+.getbwp-calendar-staff-bar-filter .getbwp-st-photo img{
+
+    border-radius: 50%;
+  
+    
+    
+	    
+}
+
+
+
+/* END Filter bar By Staff*/
+
+/*Appointments module*/
+
+.getbwp-appointments-module-filters {
+	
+	width:99%;
+	display:inline-block;	
+	padding:5px;
+	margin:10px 0px 10px 0px;
+	vertical-align:top;
+	text-align:center
+	    
+}
+
+.getbwp-appointments-module-filters  input[type="text"],  .getbwp-appointments-module-filters select{	
+	
+    height: 45px;
+    margin: 0 5px 0 5px;
+    padding: 5px;
+    min-width: 140px;
+}
+	
+	    
+
+
+/*Appointments Stats*/
+
+.getbwp-appointments-module-stats {
+	
+	width:99%;
+	display:inline-block;	
+	padding:5px;
+	margin:10px 0px 10px 0px;
+	vertical-align:top;
+	text-align:center
+	    
+}
+
+.getbwp-appointments-module-stats ul{
+
+	    
+}
+
+.getbwp-appointments-module-stats ul li{
+	display:inline-block;
+	width:20%;
+	height:90px;
+	margin:10px 2px 5px 2px;
+	border:none;
+	vertical-align:top
+
+	    
+}
+
+.getbwp-appointments-module-stats ul li h3{
+	font-size:23px;
+	margin:5px 0px 0px 0px;
+    text-align: center !important;
+	
+	    
+}
+
+h3.appointment{
+	font-size:24px !important;
+	
+	    
+}
+
+.getbwp-appointments-module-stats ul li.total{
+	
+	background: #fff;	    
+}
+
+.getbwp-appointments-module-stats ul li.pending{
+	
+	background: #fff;	    
+}
+
+.getbwp-appointments-module-stats ul li.cancelled{
+	
+	background: #fff  ;	    
+}
+
+.getbwp-appointments-module-stats ul li.noshow{
+	
+	background: #fff  ;	    
+}
+
+.getbwp-appointments-module-stats ul li p.totalstats{
+	
+	font-size:23px;
+	color:#666;
+	margin:5px 0px 0px 0px
+	
+		    
+}
+
+
+
+
+
+/*Create New Appointment*/
+
+.getbwp-adm-new-appointment {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    font-size: 13px;
+    line-height: 2.1em;
+    margin: 5px 0;
+    overflow: auto;
+    padding: 5px 10px 5px;
+    position: relative;
+	height:auto;	
+	margin-left: 13px;
+    max-width: 1400px;
+   
+	/*width:700px;*/
+}
+
+.getbwp-adm-new-appointment h3{
+    margin:5px 0px 5px 0px
+}
+
+.getbwp-adm-check-av-button{
+	
+	width:100%;
+	clear:both;
+	text-align:right;
+	padding:5px 0px 5px 0px;	
+	    
+}
+
+.getbwp-adm-check-av-button-d{
+	
+	width:100%;
+	clear:both;
+	text-align:right;
+	padding:5px 0px 5px 0px;
+	margin:10px 0px 5px 0px;	
+	    
+}
+
+
+
+.getbwp-adm-new-appointment .getbwp-adm-frm-blocks{
+	
+	width:30%;
+	display:inline-block;	
+	padding:5px;
+	margin-bottom:5px;
+	vertical-align:top;
+	    
+}
+
+
+.getbwp-adm-new-appointment  input[type="text"],  .getbwp-adm-new-appointment select{	
+	width: 100%;
+	height:40px; 
+	    
+}
+
+
+.getbwp-adm-new-appointment .field-header{	
+	width:99%;
+	clear:both;
+	float:none;
+	font-size:14px;
+	font-weight:bold;    
+}
+
+.getbwp-adm-extrainfo-box {
+    
+    position: relative;
+	height:200px;
+	overflow-x:hidden;
+	padding-right:5px;
+	
+	width:99%;
+}
+
+.getbwp-adm-bookinginfo-box {
+    
+    position: relative;
+	max-height:200px;
+	overflow-x:hidden;
+	padding-right:5px;
+	margin-bottom:10px;
+	
+	width:99%;
+}
+
+.getbwp-adm-bookingnotes-box {
+    
+    position: relative;
+	max-height:380px;
+	overflow-x:hidden;
+	padding-right:5px;
+	margin-bottom:10px;
+	
+	width:99%;
+}
+
+.getbwp-adm-availa-box {
+    
+    position: relative;
+	height:200px;
+	overflow-x:hidden;
+	
+	width:100%;
+}
+
+/*End New Appointment*/
+
+/*Custom Fields for Bookng Edit*/
+.getbwp-adm-new-appointment .getbwp-profile-separator{ clear:both; position:relative;
+
+	border-bottom: 1px solid #DBDBDB;
+	margin-bottom: 25px;
+	margin-top: 15px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding:0 0 10px 0;
+	color: #333;
+	text-align:left;
+}
+
+.getbwp-adm-new-appointment .getbwp-profile-field{ clear:both; position:relative; height:auto; margin:10px 0px 0px 0px}
+.getbwp-adm-new-appointment .getbwp-field-type{ display:inline-block; width:30%; text-align:left; vertical-align:top}
+.getbwp-adm-new-appointment .getbwp-field-type img{ position:relative !important}
+
+.getbwp-adm-new-appointment .getbwp-field-value{ display:inline-block; width:66%; vertical-align:top; text-align:left}
+
+.getbwp-adm-new-appointment .getbwp-field-type i {
+
+	float: left;
+	width: 26px;
+	height: 26px;
+	line-height: 26px;
+	margin: 0 14px 0 0;	
+	text-align: center;
+	position: relative;
+	top: auto;
+}
+
+.getbwp-input-text-area {
+	height:100px !important;
+	width:98%;
+	
+}
+
+.getbwp-notification   { width:70%; clear:both; display:none}
+#getbwp-add-new-custom-field-frm   { display:none }
+.getbwp-deleted   { background:#FCC}
+
+.getbwp-ultra-info, .getbwp-ultra-success, .getbwp-ultra-warning, .getbwp-ultra-error, .isa_error {
+    border: 1px solid;
+    margin: 10px 0px 0px 5px;
+    padding:15px 10px 15px 50px;
+    background-repeat: no-repeat;
+    background-position: 10px center;-moz-border-radius:.5em;
+-webkit-border-radius:.5em;
+border-radius:.5em;
+
+}
+.getbwp-ultra-info {
+    color: #00529B;
+    background-color: #BDE5F8;
+    background-image: url('../images/info.png');
+}
+.getbwp-ultra-success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+    background-image:url('../images/success.png');
+}
+.getbwp-ultra-warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+    background-image: url('../images/warning.png');
+}
+.getbwp-ultra-error {
+    color: #D8000C;
+    background-color: #FFBABA;
+    background-image: url('../images/error.png');
+}
+
+/*Ends*/
+
+
+/*Admin Availability options*/
+
+.getbwp-adm-availa-box .getbwp-time-slots-divisor{ position:relative; height:auto !important; margin:0px ; padding:0px}
+.getbwp-adm-availa-box .getbwp-nav-search-options-bar { position:relative; height:auto !important; margin:10px 0px 5px 0px ; padding:5px; text-align:right}
+
+.getbwp-adm-availa-box .getbwp-selected-staff-booking-info{ position:relative; height:auto !important; margin:5px 0px 10px 0px ; padding:2px; }
+.getbwp-adm-availa-box .getbwp-selected-staff-booking-info p{ font-size:14px }
+.getbwp-adm-availa-box .getbwp-selected-staff-booking-info strong{ font-weight:bold }
+
+ul.getbwp-time-slots-available-list{position:relative; height:auto !important; margin:0px ; padding:0px}
+.getbwp-adm-availa-box h3{ font-size:20px; margin:10px 0px 10px 0px; text-align:center}
+.getbwp-time-slots-available-list li{ border-top: 1px solid #ddd;
+    box-sizing: border-box;
+    color: #888;
+    font-family: "Open Sans",sans-serif;
+    line-height: 1.8; 
+	list-style:none;
+	height:110px;
+	display:inline-block;
+	width:19%;
+	vertical-align:top;
+	border: 1px solid  #F3F3F3;
+	margin:5px 2px 5px 2px
+	
+	}
+	
+.getbwp-time-slots-available-list li{ transition: all 0.1s ease-out 0s;}	
+.getbwp-time-slots-available-list li:hover{  background: #f9f9f9 none repeat scroll 0 0;}	
+
+ul.getbwp-time-slots-available-list li div.getbwp-timeslot-time{ 
+	box-sizing: border-box;	
+	padding: 2px;
+	margin: 0px;
+	color: #555;
+    font-size: 15px;
+    font-weight: 600;
+    width: 100%;
+	float:none;
+	clear:both;
+	text-align:center;
+	
+	
+
+}
+
+ul.getbwp-time-slots-available-list li div.getbwp-timeslot-count{ 
+	box-sizing: border-box; 	
+	width:100%;
+	text-align:center;
+	margin:0px;
+	
+}
+
+ul.getbwp-time-slots-available-list li div.getbwp-timeslot-count span.spots-available{ 
+
+	font-size:12px;
+	text-align:center;
+	
+	
+}
+
+ul.getbwp-time-slots-available-list li span.getbwp-timeslot-people{ 
+	box-sizing: border-box; 
+	
+	width:100%;
+	padding: 0px;
+	display:inline-block;
+	text-align:center;
+	
+
+}
+
+ul.getbwp-time-slots-available-list li span.getbwp-button-text{
+	
+	font-size:12px;
+	line-height:32px;
+	/*color:#FFF;*/
+	width:100%;
+		
+
+}
+    
+	
+/**/
+/*End Admin Availability*/
+
+
+.getbwp-welcome-panel {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    font-size: 13px;
+    line-height: 2.1em;
+    margin: 10px 0;
+    overflow: auto;
+    padding: 10px 10px 5px;
+    position: relative;
+}
+
+.getbwp-welcome-panel td i {
+    font-size: 18px;
+	color:#333
+   
+}
+
+.getbwp-welcome-panel h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.2;
+    margin: 0;
+    text-align: center;
+}
+.getbwp-welcome-panel h4 {
+    font-size: 16px;
+    margin: 1.33em 0 0;
+}
+.getbwp-welcome-panel li {
+    font-size: 14px;
+}
+
+
+.getbwp-welcome-panel-content {
+    margin-left: 13px;
+    max-width: 1500px;
+}
+.getbwp-welcome-panel .welcome-panel-column-container {
+    clear: both;
+    position: relative;
+	padding-top:10px;
+	padding-bottom:10px
+}
+.getbwp-welcome-panel .welcome-panel-column {
+    float: none;
+    min-width: 200px;
+    width: 33%;
+	display:inline-block;
+	vertical-align:top;
+	
+}
+
+
+.getbwp-welcome-panel .welcome-panel-column-pro-s {
+    float: none;
+    min-width: 200px;
+    width: 44%;
+	display:inline-block;
+	vertical-align:top;
+	margin:10px 0px 5px 10px;
+	
+}
+
+.getbwp-welcome-panel .welcome-panel-column-pro-s img {
+	
+	max-width:100%;   	
+}
+
+.getbwp-welcome-panel .welcome-panel-column-pro-s p {
+	font-size:14px;	   	
+}
+
+.getbwp-welcome-panel .welcome-panel-column-pro-s h4 {
+	
+	margin-top:1.2em;
+	font-size:18px;	   	
+
+  	
+}
+
+
+
+.getbwp-welcome-panel .welcome-panel-column-pro {
+    float: none;
+    min-width: 200px;
+    width: 32%;
+	display:inline-block;
+	vertical-align:top;
+	margin:10px 0px 5px 10px;
+	
+}
+
+.getbwp-welcome-panel .welcome-panel-column-pro img {
+	
+	max-width:100%;   	
+}
+
+.getbwp-welcome-panel .welcome-panel-column-pro p {
+	font-size:14px;	   	
+}
+
+.getbwp-welcome-panel .welcome-panel-column-pro h4 {
+	
+	margin-top:1.2em;
+  	
+}
+
+
+/*Appointments Planning*/
+
+.getbwp-welcome-panel .welcome-panel-column .getbwp-appointments-planning {   
+  
+    width: 100%;
+	overflow-x:hidden;
+	
+	padding-bottom:5px;
+	margin-bottom:5px;
+	text-align:center;
+	
+}
+
+.getbwp-welcome-panel .welcome-panel-column .getbwp-appointments-planning ul {   
+  
+    width: 100%;
+	position:relative;
+	
+	
+}
+
+.getbwp-welcome-panel .welcome-panel-column .getbwp-appointments-planning ul li{   
+  
+    width: 29%;
+	position: relative;
+	display:inline-block;
+	height:60px;
+	border:none;
+	background: #FBFBFB;
+	border:solid 1px #F0F0F0;
+	padding:2px;
+	margin:5px 2px 0px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+}
+
+.getbwp-welcome-panel .welcome-panel-column .getbwp-status-planning {   
+  
+    width: 100%;
+	overflow-x:hidden;	
+	padding-bottom:5px;
+	margin-bottom:5px;
+	text-align:center;
+	border-top:1px solid #EEE;
+	
+}
+.getbwp-welcome-panel .welcome-panel-column .getbwp-status-planning a{ text-decoration:none}
+
+.getbwp-welcome-panel .welcome-panel-column .getbwp-status-planning a .count, .getbwp-welcome-panel .welcome-panel-column .getbwp-status-planning a.current .count{ color:#999 }
+
+.getbwp-welcome-panel .welcome-panel-column .getbwp-status-planning ul{ text-align:left}
+.getbwp-welcome-panel .welcome-panel-column .getbwp-status-planning li{ 
+	
+	position: relative;
+	display:inline-block; color:#DDD; font-size:12px;
+	
+	}
+
+.getbwp-welcome-panel .welcome-panel-column .getbwp-appointments-planning ul li.today{
+	
+}
+
+.getbwp-welcome-panel .welcome-panel-column .getbwp-appointments-planning ul li.tomorrow{
+	
+}
+
+.getbwp-welcome-panel .welcome-panel-column .getbwp-appointments-planning ul li.week{
+	
+}
+
+.getbwp-welcome-panel .welcome-panel-column .getbwp-appointments-planning ul li h3{
+	font-size:14px;
+	font-weight:bold;
+	text-align:center; 
+	  
+}
+
+.getbwp-welcome-panel .welcome-panel-column .getbwp-appointments-planning ul li p{
+	font-size:20px;
+	font-weight:bolder;
+	text-align:center; 
+	  
+}
+
+.getbwp-welcome-panel .welcome-panel-column .getbwp-appointments-planning ul li p.today{
+	color:#F00;  
+}
+
+.getbwp-welcome-panel .welcome-panel-column .getbwp-appointments-planning ul li p.tomorrow{
+	color: #008000;  
+}
+
+.getbwp-welcome-panel .welcome-panel-column .getbwp-appointments-planning ul li p.week{
+	 
+}
+
+/*Payments details*/
+
+/*Appointments Planning*/
+
+.getbwp-adm-bookinginfo-box .getbwp-financial-list {   
+  
+    width: 100%;
+	overflow-x:hidden;
+	height:130px;
+	padding-bottom:5px;
+	margin-bottom:5px;
+	
+}
+
+.getbwp-adm-bookinginfo-box .getbwp-financial-list ul {   
+  
+    width: 100%;
+	position:relative;
+	text-align:center;
+	
+	
+}
+
+.getbwp-adm-bookinginfo-box .getbwp-financial-list ul li{   
+  
+    width: 29%;
+	position: relative;
+	display:inline-block;
+	height:60px;
+	border:none;
+	background: #F0F0F0;
+	border:solid 1px #F0F0F0;
+	padding:2px 2px 15px 2px;
+	margin:5px 2px 0px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	vertical-align:top;
+}
+
+
+.getbwp-adm-bookinginfo-box  td.bupending{
+	color:#F00
+}
+
+
+.getbwp-adm-bookinginfo-box .getbwp-financial-list ul li.bupending{
+	color:#F00
+}
+
+.getbwp-adm-bookinginfo-box .getbwp-financial-list ul li.bupendingok{
+	
+}
+
+.getbwp-adm-bookinginfo-box .getbwp-financial-list ul li.bupaid{
+	
+}
+
+.getbwp-adm-bookinginfo-box .getbwp-financial-list ul li.bupbalance{
+	color:#F00
+	
+}
+
+.getbwp-adm-bookinginfo-box .getbwp-financial-list ul li h3{
+	font-size:16px;
+	font-weight:bold;
+	text-align:center; 
+	  
+}
+
+.getbwp-adm-bookinginfo-box .getbwp-financial-list ul li p{
+	font-size:15px;
+	color: #333;
+	font-weight: normal;
+	text-align:center; 
+	  
+}
+
+.getbwp-adm-bookinginfo-box .getbwp-financial-list ul li p.negative{
+	color:#F00;  
+}
+
+.getbwp-adm-bookinginfo-box .getbwp-financial-list ul li p.bupaid{
+	  
+}
+
+.getbwp-adm-bookinginfo-box .getbwp-financial-list ul li p.bupbalance{
+	 
+}
+
+.getbwp-adm-bookinginfo-box .getbwp-financial-list ul li p.bupending{
+	
+	color:#F00
+	 
+}
+
+/*Notes List*/
+
+.getbwp-adm-bookingnotes-box .getbwp-notes-list {   
+  
+    width: 100%;
+	overflow-x:hidden;
+	/*max-height:300px;*/
+	padding-bottom:5px;
+	margin-bottom:5px;
+	
+}
+
+.getbwp-adm-bookingnotes-box .getbwp-notes-list ul {   
+  
+    width: 100%;
+	position:relative;
+	text-align:center;
+	
+	
+}
+
+.getbwp-adm-bookingnotes-box .getbwp-notes-list ul li{   
+  
+    width: 20%;
+	position: relative;	
+	border:none;
+	display:inline-block;
+	background:#ffc;
+	height:100px;
+	
+	
+	padding:15px 2px 15px 2px;
+	margin:15px 10px 10px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	vertical-align:top;
+}
+
+.getbwp-adm-bookingnotes-box .getbwp-notes-list ul li{   
+  
+    -webkit-transform:rotate(-6deg);
+  -o-transform:rotate(-6deg);
+  -moz-transform:rotate(-6deg);
+}
+
+.getbwp-adm-bookingnotes-box .getbwp-notes-list ul li:nth-child(even){
+  -o-transform:rotate(4deg);
+  -webkit-transform:rotate(4deg);
+  -moz-transform:rotate(4deg);
+  position:relative;
+  top:5px;
+}
+.getbwp-adm-bookingnotes-box .getbwp-notes-list ul li:nth-child(3n){
+  -o-transform:rotate(-3deg);
+  -webkit-transform:rotate(-3deg);
+  -moz-transform:rotate(-3deg);
+  position:relative;
+  top:-5px;
+}
+.getbwp-adm-bookingnotes-box .getbwp-notes-list ul li:nth-child(5n){
+  -o-transform:rotate(5deg);
+  -webkit-transform:rotate(5deg);
+  -moz-transform:rotate(5deg);
+  position:relative;
+  top:-10px;
+}
+
+.getbwp-adm-bookingnotes-box .getbwp-notes-list .getbwp-notes-actions{   
+  
+    width: 50px;
+	position: absolute;
+	right:0px;
+	top:2px;
+	text-align:right;	
+}
+
+
+
+
+
+.getbwp-adm-bookingnotes-box .getbwp-notes-list ul li a{
+  text-decoration:none;
+  color:#000;
+  background:#ffc;
+ 
+  
+}
+
+
+.getbwp-adm-bookingnotes-box .getbwp-notes-list ul li h3{
+	font-size:16px;
+	font-weight:bold;
+	text-align:center; 
+	  
+}
+
+.getbwp-adm-bookingnotes-box .getbwp-notes-list ul li p{
+	font-size:12px;
+	font-weight:normal;
+	text-align:center; 
+	  
+}
+
+.getbwp-nav-pro-features { border-bottom:solid 1px #CCCCCC  }
+.getbwp-multi-tab-options { margin-top:30px;  }
+.getbwp-nav-pro-features li.getbwp-pro-li{ height:20px !important; padding-top:5px; font-size:14px; margin:0px 5px 0px 5px}
+.getbwp-nav-pro-features li.getbwp-pro-li a{ text-decoration:none !important; color:#333; font-size:14px; display:block; height:100%; }
+
+
+
+
+
+
+/*Upcoming Appointments*/
+.getbwp-welcome-panel .welcome-panel-column .getbwp-latest-appointments {   
+  
+    width: 100%;
+	overflow-x:hidden;
+	height:130px;
+	padding-bottom:5px;
+	margin-bottom:5px;
+	
+}
+
+.getbwp-welcome-panel .welcome-panel-column .getbwp-latest-appointments ul {   
+  
+    width: 100%;
+	position:relative;
+	
+	
+}
+
+.getbwp-welcome-panel .welcome-panel-column .getbwp-latest-appointments ul li{   
+  
+    width: 97%;
+	position: relative;
+	height:45px;
+	border:none;
+	background: #FBFBFB;
+	border:solid 1px #F0F0F0;
+	padding:2px;	
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+}
+
+.getbwp-welcome-panel .welcome-panel-column .getbwp-latest-appointments ul li h3{
+	font-size:14px;
+	font-weight:bold;    
+}
+
+.getbwp-welcome-panel .welcome-panel-column .getbwp-latest-appointments ul li .getbwp-app-info{
+	font-size:11px;	    
+}
+
+.getbookingswp-admin-contain{
+    position: relative;
+
+}
+
+.getbookingswp-admin-contain h3{
+    font-size: 1.6rem;
+    text-align: left;
+    
+}
+
+/*appointment list*/
+
+.getbwp-welcome-panel .welcome-panel-column .getbwp-latest-appointments ul {   
+  
+    width: 100%;
+	position:relative;
+	
+	
+}
+
+.getbwp-quick-list-appointments {
+	max-height:500px;
+	overflow-x: hidden;  
+  
+   
+	
+	
+}
+
+.getbwp-quick-list-appointments ul li{   
+  
+    width: 97%;
+	position: relative;
+	min-height:45px;
+	border:none;
+	background: #FBFBFB;
+	border:solid 1px #F0F0F0;
+	padding:2px;
+	margin-bottom:5px;
+	
+}
+
+.getbwp-quick-list-appointments ul li h3{
+	font-size:14px;
+	font-weight:bold;    
+}
+
+.getbwp-quick-list-appointments ul li .getbwp-app-info{
+	font-size:11px;	    
+}
+
+span.getbwp-quick-appointment-action{ position:absolute; right:2px; top:0px}
+span.getbwp-quick-appointment-action a{ margin:5px}
+
+/*ends appointment list*/
+
+
+.getbwp-sect { padding:5px 2px 2px 5px; margin-top:10px; position:relative; background:#FFF}
+.getbwp-sect .getbwp-header { margin:5px; padding-top:5px; padding-left:5px; border-bottom: solid 1px #F8F8F8}
+.getbwp-sect .getbwp-header h3{ font-size:20px}
+
+.getbwp-validation-sect { padding:5px 2px 2px 5px; text-align: center; margin-top:10px; position:relative; background:#FFF}
+.getbwp-validation-sect .getbwp-header { margin:5px; padding-top:5px; padding-left:5px; border-bottom: solid 1px #F8F8F8}
+.getbwp-validation-sect h3{ font-size:2.2rem; text-align: center;}
+.getbwp-validation-sect p{ font-size:1.2rem}
+
+.user-ultra-btn-red{ background: #F00 !important;  color:#FFF !important}
+
+
+/*services module*/
+
+.getbwp-user-avatar-default-style{border-radius:50%}
+
+.getbwp-sect .getbwp-staff { width:99%; padding:2px; position:relative}
+.getbwp-sect .getbwp-staff .getbwp-staff-left{ display:inline-block; width:100%; padding:2px; position:relative; background:none;  vertical-align:top}
+.getbwp-sect .getbwp-staff .getbwp-staff-right{display:inline-block; width:100%;padding:2px; position:relative;  min-height:400px ; vertical-align:top}
+
+.getbwp-sect .getbwp-staff .getbwp-staff-right-avatar{ width:98%;padding:2px; max-width:700px; position:relative;  min-height:400px ; margin:10px auto 10px auto; text-align:center }
+
+.getbwp-sect .getbwp-staff .getbwp-staff-right-avatar h3{ font-size:18px }
+
+.getbwp-sect .getbwp-staff .getbwp-dialog-user-bg-cropper{margin:0px auto 0px auto }
+
+
+.getbwp-avatar-drag-drop-sector {
+
+	position:relative;
+    border: 3px dashed #bbb;
+    padding:5px;
+    margin:5px auto 5px auto;
+    height: auto !important;
+    width:90%
+
+}
+
+.getbwp-avatar-drag-drop-sector img {
+    border-radius: 50%;	
+
+}
+
+.getbwp-sect span.getbwp-add-appo{ position:absolute; right:5px; top:10px}
+
+.getbwp-sect span.getbwp-add-appo a{ font-size:18px; color:#474747}
+.getbwp-sect span.getbwp-add-appo i{ font-size:18px}
+
+.getbwp-sect .pr_tipb_be{ clear:both; float:none; width:99%; max-height:700px; min-height:99px; margin-top:10px; margin-bottom:10px; padding-bottom:15px;  border:solid 1px #E9E9E9; display:inline-block }
+
+
+.getbwp-sect .getbwp-staff .getbwp-staff-left ul{display: flex; overflow: auto; }
+.getbwp-sect .getbwp-staff .getbwp-staff-left ul li{ 
+    display:inline-flex;
+    vertical-align: top;
+    min-height:80px; 
+    width: 120px;  
+    padding:5px; 
+    text-align: center; 
+    border: solid 1px #e1e1e1ad;
+    margin-right: 0.5em;
+    text-align: center;
+    border-radius: 5%;
+
+
+
+}
+.getbwp-sect .getbwp-staff .getbwp-staff-left ul li:hover{ background: #F7F7F7}
+.getbwp-sect .getbwp-staff .getbwp-staff-left ul li img{ vertical-align:central;   border-radius: 50%;}
+.getbwp-sect .getbwp-staff .getbwp-staff-left ul li a{ display:block; text-decoration:none; height:100%}
+
+.getbwp-sect .getbwp-staff .getbwp-staff-left .getbwp-staff-list-act{ position:relative}
+.getbwp-sect .getbwp-staff .getbwp-staff-left .getbwp-staff-list-act span.getbwp-add-staff{ position:absolute; right:5px; top:10px}
+
+.getbwp-sect .getbwp-staff .getbwp-staff-left .getbwp-staff-list-act span.getbwp-add-staff a{ font-size:18px; color:#474747}
+.getbwp-sect .getbwp-staff .getbwp-staff-left .getbwp-staff-list-act span.getbwp-add-staff i{ font-size:18px}
+
+.getbwp-sect .getbwp-staff .getbwp-staff-left .getbwp-staff-name{ 
+    position:relative;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.getbwp-sect .getbwp-staff .getbwp-staff-left .getbwp-staff-name h3{ 
+    font-size: 12px;  
+    text-align: center;
+}
+
+.getbwp-avadiv{}
+.getbwp-avadiv img{
+    border-radius: 50%;
+}
+
+
+/*services module*/
+
+
+.getbwp-sect .getbwp-services .getbwp-service-header-bar{ margin:0px 0px 10px 0px}
+.getbwp-sect .getbwp-services{ padding:2px; position:relative}
+.getbwp-sect .getbwp-services .getbwp-categories{ display:inline-block; width:25%; margin-right:15px; vertical-align:top}
+.getbwp-sect .getbwp-services .getbwp-services{ display:inline-block; width:68%; vertical-align:top}
+
+.getbwp-sect .getbwp-services{ padding:2px; position:relative}
+.getbwp-sect .getbwp-services .getbwp-categories{ display:inline-block; width:25%; margin-right:5px; position:relative; vertical-align:top; padding:5px}
+.getbwp-sect .getbwp-services .getbwp-services{ display:inline-block; width:70%; vertical-align:top}
+
+/**/
+
+.getbwp-sect .getbwp-services span.getbwp-add-service-m{ position:absolute; right:5px; top:5px}
+.getbwp-sect .getbwp-services span.getbwp-add-service-m a{ font-size:18px; color:#474747}
+.getbwp-sect .getbwp-services span.getbwp-add-service-m i{ font-size:18px}
+
+.getbwp-adm-new-appointment span.getbwp-add-client-m{ position:absolute; right:5px; top:5px}
+.getbwp-adm-new-appointment span.getbwp-add-client-m a{ font-size:18px; color:#474747}
+.getbwp-adm-new-appointment span.getbwp-add-client-m i{ font-size:18px}
+
+
+
+/**/
+
+.getbwp-sect .getbwp-services .getbwp-categories span.getbwp-add-service{ position:absolute; right:5px; top:5px}
+.getbwp-sect .getbwp-services .getbwp-categories span.getbwp-action-service{ position:absolute; right:5px; top:5px}
+
+.getbwp-sect .getbwp-services .getbwp-categories span.getbwp-add-service a{ font-size:18px; color:#474747}
+.getbwp-sect .getbwp-services .getbwp-categories span.getbwp-add-service i{ font-size:18px}
+
+.getbwp-sect .getbwp-services .getbwp-categories span.getbwp-action-service a{ font-size:18x; color: #484848}
+.getbwp-sect .getbwp-services .getbwp-categories span.getbwp-action-service i{ font-size:18px}
+
+.getbwp-sect .getbwp-services .getbwp-categories ul{ }
+.getbwp-sect .getbwp-services .getbwp-categories li{ position:relative; margin-bottom:5px; border-bottom:solid 1px #F0F0F0; padding:5px }
+
+.getbwp-sect .getbwp-services .getbwp-categories a{ 
+    text-decoration:none; 
+    font-size:14px;
+    color: #59534b;
+}
+
+.getbwp-fontawe-space{
+    margin-right: 5px;
+}
+
+
+.getbwp-sect-adm-edit { vertical-align:top}
+
+.getbwp-sect .getbwp-services .service-color-blet{ width:15px; height:15px; border-radius: 50%;}
+
+
+.getbwp-sect-adm-edit span.getbwp-action-staff{ position:absolute; right:5px; top:20px; z-index:999}
+.getbwp-sect-adm-edit span.getbwp-action-staff a{ font-size:20px; color:#474747; cursor:pointer}
+.getbwp-sect-adm-edit span.getbwp-action-staff i{ font-size:28px}
+
+.getbwp-sect-adm-edit span.getbwp-action-staff-id{ position:absolute; right:5px; top:2px; z-index:999; font-size:11px}
+
+
+/*widgets edit*/
+
+ul.getbwp-details-staff-sections{ margin-top:0px}
+
+.getbwp-sect-adm-edit li.left_widget_customizer_li{ 
+    display:inline-block; vertical-align:top; 
+    border:#EFEFEF solid 1px; 
+    width:100%; 
+    height:auto !important; 
+    margin-left:0px; 
+    margin-top:0px;
+    margin-bottom:5px; 
+    padding-bottom:10px;padding-top:0px; 
+    border-radius: 8px;
+ }
+
+.getbwp-sect-adm-edit .getbwp-staff-details-header {
+
+    width:100%; 
+    cursor:pointer;
+    min-height:50px;
+    clear:both;
+    border-bottom: 1px solid #f6f6f6d6;   
+    background-color: #f3f3f3;
+    position:relative;
+	margin-top:0px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.getbwp-sect-adm-edit .getbwp-staff-details-header h3{
+  
+	margin-top:0px;
+	padding-top:5px;
+	padding-left:5px;
+}
+
+.getbwp-sect-border { border: solid 1px #ddd}
+
+span.getbwp-widgets-icon-close-open {
+
+    width:20px;
+    height:20px;
+    position:absolute;
+    background-image:url(../images/icon-close-open.png);
+    right:5px;
+	top:2px;
+
+}
+
+
+
+/*breaks edit*/
+
+span.getbwp-breaks-add {
+
+    width:80px;
+	 cursor:pointer;
+    height:20px;
+    position:absolute;    
+    right:10px;
+	top:10px;
+
+}
+
+span.getbwp-breaks-remove{ position:absolute; right:2px; top:0px}
+
+
+
+.getbwp-sect-adm-edit .getbwp-add-new-break{ padding-top:5px; padding-bottom:5px; margin-bottom:5px; display:none}
+
+.getbwp-sect-adm-edit .getbwp-staff-break{ vertical-align:top; width:90%; margin:10px auto 0 auto; text-align:center}
+
+.getbwp-sect-adm-edit .getbwp-clock-remove{ margin-right:4px }
+
+
+
+.getbwp-sect-adm-edit .getbwp-staff-break .getbwp-breaks-details { }
+.getbwp-sect-adm-edit .getbwp-staff-break .getbwp-breaks-details ul{ position:relative }
+.getbwp-sect-adm-edit .getbwp-staff-break .getbwp-breaks-details li{ width:100%; width:200px; position:relative; margin:0px auto 5px auto; border:solid 1px #F7F7F7 }
+
+.getbwp-sect-adm-edit .getbwp-staff-break .getbwp-add-break-cont{ vertical-align:top; width:100%; max-width:400px; margin:10px auto 0 auto; background: #FBFBFB; border:solid 1px #F5F5F5; padding-top:5px; padding-bottom:5px}
+
+
+.getbwp-sect-adm-edit .getbwp-staff-break li.left_widget_customizer_li{ display:inline-block; vertical-align:top; border:#EFEFEF solid 1px; width:100%; height:auto !important; margin-left:0px; margin-top:5px;margin-bottom:5px; padding-bottom:5px;padding-top:0px; 5 }
+
+.getbwp-sect-adm-edit .getbwp-staff-break .getbwp-break-details-header {
+
+    width:100%; 
+   
+    min-height:50px;
+    clear:both;
+    position:relative;
+	margin-top:0px;
+}
+
+.getbwp-sect-adm-edit .getbwp-staff-break .getbwp-break-details-header h3{
+  
+	margin-top:0px;
+	padding-top:5px;
+	padding-left:5px;
+	font-size:14px;
+	text-align:left;
+}
+
+/*service edit*/
+.getbwp-sect-adm-edit .getbwp-edit-service-block{ vertical-align:top}
+.getbwp-sect-adm-edit .getbwp-field-separator { margin:5px 0px 5px 0px; padding-top: 5px; padding-bottom: 5px}
+.getbwp-sect-adm-edit .getbwp-field-separator label{ width:200px; display: inline-block}
+
+.getbwp-edit-service-block .wp-picker-container, .wp-picker-container:active{ position:absolute; display:inline}
+.getbwp-sect-adm-edit .getbwp-serv-category-title{  margin:20px 5px 15px 0px; background: #FBFBFB; height:35px; padding:10px 5px 5px 5px}
+
+
+.getbwp-sect-adm-edit .getbwp-serv-category-title .getbwp-col1{ width:50%; display:inline-block; text-align:left;  font-size:12px; font-weight:bold}
+.getbwp-sect-adm-edit .getbwp-serv-category-title .getbwp-col2{width:25%;display:inline-block; text-align:right;  font-size:12px; font-weight:bold }
+.getbwp-sect-adm-edit .getbwp-serv-category-title .getbwp-col3{width:25%;display:inline-block; text-align:right;  font-size:12px; font-weight:bold }
+
+.getbwp-sect-adm-edit .getbwp-tabs-sections-staff-services{ margin-top:15px; padding-left:5px; padding-bottom:10px;}
+
+.getbwp-sect-adm-edit .getbwp-services-list-adm{ }
+.getbwp-sect-adm-edit .getbwp-services-list-adm ul{ margin:10px 0px 5px 0px; padding-left:20px}
+.getbwp-sect-adm-edit .getbwp-services-list-adm ul li{ padding-left:10px; margin:15px 0px 0px 0px}
+
+.getbwp-sect-adm-edit .getbwp-services-list-adm ul li .getbwp-services-left{ display:inline-block; width:50%; padding-bottom:10px; border-bottom:solid 1px #F3F3F3; vertical-align:top; height:30px; text-align:left}
+.getbwp-sect-adm-edit .getbwp-services-list-adm ul li .getbwp-services-right{ display:inline-block;  padding-bottom:10px;  border-bottom:solid 1px #F3F3F3; vertical-align:top;  height:30px; width:25%; text-align:right}
+.getbwp-sect-adm-edit input[type="text"] {}
+.getbwp-sect-adm-edit .getbwp-price-box { width:80px}
+
+
+/*details box styles*/
+.getbwp-sect-adm-edit .getbwp-staff-details{ position:relative; margin-top:15px; padding-left:5px; padding-bottom:10px;}
+.getbwp-sect-adm-edit .getbwp-staff-details .getbwp-profile-field{ clear:both; position:relative; height:auto; margin:10px 0px 0px 0px}
+.getbwp-sect-adm-edit .getbwp-staff-details .getbwp-field-type{ display:inline-block; width:20%; text-align:left; vertical-align:top}
+
+.getbwp-sect-adm-edit .getbwp-staff-details .getbwp-field-value{ display:inline-block; width:66%; vertical-align:top; text-align:left}
+
+
+/*check box styles*/
+
+
+
+span.uultra-user-editions-icon-close-open {
+
+    width:20px;
+    height:20px;
+    position:absolute;
+    background-image:url(../images/icon-close-open.png);
+    right:5px;
+	top:2px;
+
+}
+
+
+/*USERS DASBHOARD CHECKBOXES*/
+
+
+/* Base for label styling */
+.getbwp-sect-adm-edit [type="checkbox"]:not(:checked),
+.getbwp-sect-adm-edit [type="checkbox"]:checked {
+  position: absolute;
+  left: -9999px;
+}
+
+.getbwp-sect-adm-edit  [type="checkbox"]:not(:checked) + label,
+.getbwp-sect-adm-edit [type="checkbox"]:checked + label {
+  position: relative;
+  padding-left: 25px;
+  padding-top: 2px;
+  cursor: pointer;
+}
+
+/* checkbox aspect */
+.getbwp-sect-adm-edit [type="checkbox"]:not(:checked) + label:before,
+.getbwp-sect-adm-edit [type="checkbox"]:checked + label:before {
+  content: '';
+  position: absolute;
+  left:0; 
+  top: 0px;
+  width: 17px; height: 17px;
+  border: 1px solid  #EAEAEA;
+  background: #f8f8f8;
+  border-radius: 5px;
+ 
+}
+
+/* checked mark aspect */
+.getbwp-sect-adm-edit [type="checkbox"]:not(:checked) + label:after,
+.getbwp-sect-adm-edit [type="checkbox"]:checked + label:after {
+  content: '✔';
+  position: absolute;
+  top: 0; 
+  left: 4px;
+  font-size: 14px;
+  color: #09ad7e;
+  transition: all .2s;
+}
+
+/* checked mark aspect changes */
+.getbwp-sect-adm-edit [type="checkbox"]:not(:checked) + label:after {
+  opacity: 0;
+  transform: scale(0);
+}
+.getbwp-sect-adm-edit [type="checkbox"]:checked + label:after {
+  opacity: 1;
+  transform: scale(1);
+}
+/* disabled checkbox */
+.getbwp-sect-adm-edit [type="checkbox"]:disabled:not(:checked) + label:before,
+.getbwp-sect-adm-edit [type="checkbox"]:disabled:checked + label:before {
+  box-shadow: none;
+  border-color: #EAEAEA;
+  background-color: #ddd;
+}
+.getbwp-sect-adm-edit [type="checkbox"]:disabled:checked + label:after {
+  color: #999;
+}
+
+.getbwp-sect-adm-edit [type="checkbox"]:disabled + label {
+  color: #aaa;
+}
+
+/* accessibility */
+.getbwp-sect-adm-edit [type="checkbox"]:checked:focus + label:before,
+.getbwp-sect-adm-edit [type="checkbox"]:not(:checked):focus + label:before {
+  border:none;
+}
+
+/*-------------radio styles*/
+
+
+/* Base for label styling */
+.getbwp-sect-adm-edit [type="radio"]:not(:checked),
+.getbwp-sect-adm-edit [type="radio"]:checked {
+  position: absolute;
+  left: -9999px;
+}
+
+.getbwp-sect-adm-edit  [type="radio"]:not(:checked) + label,
+.getbwp-sect-adm-edit [type="radio"]:checked + label {
+  position: relative;
+  padding-left: 25px;
+  padding-top: 2px;
+  cursor: pointer;
+}
+
+/* checkbox aspect */
+.getbwp-sect-adm-edit [type="radio"]:not(:checked) + label:before,
+.getbwp-sect-adm-edit [type="radio"]:checked + label:before {
+  content: '';
+  position: absolute;
+  left:0; 
+  top: 0px;
+  width: 17px; height: 17px;
+  border: 1px solid #EAEAEA;
+  background: #f8f8f8;
+  border-radius: 50%;
+ 
+}
+
+/* checked mark aspect */
+.getbwp-sect-adm-edit [type="radio"]:not(:checked) + label:after,
+.getbwp-sect-adm-edit [type="radio"]:checked + label:after {
+  content: '✔';
+  position: absolute;
+  top: 0; 
+  left: 4px;
+  font-size: 14px;
+  color: #09ad7e;
+  transition: all .2s;
+}
+
+/* checked mark aspect changes */
+.getbwp-sect-adm-edit [type="radio"]:not(:checked) + label:after {
+  opacity: 0;
+  transform: scale(0);
+}
+.getbwp-sect-adm-edit [type="radio"]:checked + label:after {
+  opacity: 1;
+  transform: scale(1);
+}
+/* disabled checkbox */
+.getbwp-sect-adm-edit [type="radio"]:disabled:not(:checked) + label:before,
+.getbwp-sect-adm-edit [type="radio"]:disabled:checked + label:before {
+  box-shadow: none;
+  border-color: #EAEAEA;
+  background-color: #ddd;
+}
+.getbwp-sect-adm-edit [type="radio"]:disabled:checked + label:after {
+  color: #999;
+}
+
+.getbwp-sect-adm-edit [type="radio"]:disabled + label {
+  color: #aaa;
+}
+
+/* accessibility */
+.getbwp-sect-adm-edit [type="radio"]:checked:focus + label:before,
+.getbwp-sect-adm-edit [type="radio"]:not(:checked):focus + label:before {
+  border: 1px solid #EAEAEA;
+}
+
+
+/*-------------END radio styles*/
+
+
+
+
+.table-generic tr:nth-child(even) {
+background: #F2F2F2;
+}
+
+
+/*Customizer Styles*/
+
+.getbwp-spinner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px; /* half width of the spinner gif */
+    margin-top: -50px; /* half height of the spinner gif */
+    text-align:center;
+    z-index:1234;
+    overflow: auto;
+    width: 190px; /* width of the spinner gif */
+    height: 102px; /*hight of the spinner gif +2px to fix IE8 issue */
+	background-color:rgba(240,240,240,0.7);
+	-moz-border-radius:.5em;
+	-webkit-border-radius:.5em;
+	border-radius:.5em;
+	font-size:14px;
+	padding-top:30px;
+}
+
+
+.getbwp-ultra-rounded {
+    border-radius: 5px;
+}
+.getbwp-ultra-sect {
+    background: #fff none repeat scroll 0 0;
+    clear: both;
+    height: auto !important;
+    margin-top: 20px;
+    padding: 20px 10px 10px;
+    position: relative;
+    width: 98%;
+}
+
+.getbwp-profile-fields-row {
+    border-bottom: 1px solid #efefef;
+    border-radius: 0.5em;
+    clear: both;
+    height: auto !important;
+    margin: 10px 0;
+    min-height: 60px;
+    padding: 0;
+    position: relative;
+    width: 600px;
+}
+.getbwp-profile-fields-row .heading_title {
+   
+    clear: both;
+    height: 30px;
+    margin: 0;
+    padding-top: 15px;
+    position: relative;
+    vertical-align: middle;
+    width: 100%;
+}
+.getbwp-profile-fields-row .options-bar {
+    clear: both;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 0;
+    width: 170px;
+}
+.getbwp-profile-fields-row .options-bar p {
+    margin: 8px 5px 0;
+}
+.getbwp-profile-fields-row .heading_title h3 {
+    font-size: 1.3rem;
+    margin: 0 0 0 10px;
+}
+
+.getbwp-profile-fields-row .profile-h3 {
+    font-size: 1.1rem;
+    font-weight: 400;
+   
+}
+
+.getbwp-btn-add{
+    font-size: 1.3rem !important;
+    color: #535353 !important;
+    border: solid 1px #bbb !important;
+    vertical-align:top !important
+
+}
+
+table.getbwp-add-form{
+
+    position: relative;
+
+
+}
+
+table.getbwp-add-form tr{
+
+    border-bottom: solid 1px #eaeaea;
+}
+
+table.getbwp-add-form th{
+
+    font-size:1.2rem;
+    font-weight: 350;
+}
+
+.getbwp-profile-fields-row .heading_title.separator {
+    font-size: 1.3rem;
+    background: #fafafa none repeat scroll 0 0;
+}
+.getbwp-profile-fields-row.profile-field {
+    margin-left: 30px;
+    width: 450px;
+}
+.getbwp-profile-fields-row .getbwp-fields-edition {
+    display: none;
+    margin: 10px auto;
+    width: 85%;
+}
+#uu-fields-sortable .ui-selected {
+    background: red none repeat scroll 0 0;
+    color: white;
+    font-weight: bold;
+}
+#uu-fields-sortable {
+    cursor: move;
+}
+
+
+.getbwp-sect .fc-event{
+	border-radius:0px;
+	border:none;
+	
+   
+}
+
+i.mce_getbgwp_shortcodes_button{background-image:url(../images/small_logo_16x16.png)!important;background-repeat:no-repeat!important;background-position:center!important}
+
+.getbwp-button-upgrade{ 
+
+    background: #b1e16f none repeat scroll 0 0;
+    border: none;
+    color: #181818;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 0 12px;
+    height: 50px;
+    width: 250px;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.getbwp-welcome-panel .getbwp-button-upgrade:hover{ 
+
+	background: #88c237d3   none repeat scroll 0 0;
+	border:none;
+   
+    box-shadow: none;
+    color: #181818;
+    text-shadow: none;
+}
+
+.getbwp-welcome-panel .getbwp-button-upgrade{ 
+    text-align: center;
+}
+
+/*go dahsboard*/
+
+.getbwp-upgrade-pro-btn a{
+    text-decoration: none;
+}
+
+.getbwp-button-common{ 
+
+    background: #f1f1f1 none repeat scroll 0 0;
+    border: none;
+    color: #181818;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 0 12px;
+    height: 50px;
+    width: 250px;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.getbwp-welcome-panel .getbwp-button-common:hover{ 
+
+	background: #eee    none repeat scroll 0 0;
+	border:none;
+   
+    box-shadow: none;
+    color: #181818;
+    text-shadow: none;
+}
+
+.getbwp-welcome-panel .getbwp-button-common{ 
+    text-align: center;
+}
+
+.getbwp-welcome-panel .getbwp-button-upgrade-pro{ transition: all 0.1s ease-out 0s;}
+
+.getbwp-upgrade-pro-btn{
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+}
+
+
+
+h3.getbwp-extended{ font-size:2.8rem; text-align: center;}
+h3.getbwp-welcome{ font-size:22px; color:#999; position:relative}
+p.getbwp-extended-p{ font-size:14px; text-align: center;}
+
+
+div.buppro-message{overflow:hidden;position:relative;border-left-color: #E55237!important}
+div.buppro-message p{max-width:700px}
+
+.buppro-message a.button-primary,p.buppro-actions a.button-primary{background:#E55237;border-color:#E55237;-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,.25),0 1px 0 #E55237;box-shadow:inset 0 1px 0 rgba(255,255,255,.25),0 1px 0 #E55237;color:#fff;text-shadow:0 -1px 1px #E55237,1px 0 1px #A36597,0 1px 1px #A36597,-1px 0 1px #A36597}
+
+.buppro-message a.buppro-message-close,p.buppro-actions a.buppro-message-close{position:absolute;top:0;right:0;padding:10px 15px 10px 21px;font-size:13px;line-height:1.23076923;text-decoration:none}.buppro-message a.buppro-message-close:before,p.buppro-actions a.buppro-message-close:before{position:absolute;top:8px;left:0;-webkit-transition:all .1s ease-in-out;transition:all .1s ease-in-out}
+
+
+/*
+ul.ui-autocomplete {
+	background: none repeat scroll 0 0 #DADADA;
+	cursor: pointer;
+	display: block;
+	list-style-type: none;
+	max-width: 200px;
+	padding: 0;
+	position: relative;
+	z-index: 1;
+}
+
+ul.ui-autocomplete li.ui-menu-item {
+	padding:3px 5px;
+}
+
+ul.ui-autocomplete li.ui-menu-item:hover, 
+ul.ui-autocomplete li.ui-state-hover:hover{
+	background:#666;
+}*/
+/* ------------------------------------------------------------------------- *
+
+ *  Responsive Style
+
+/* ------------------------------------------------------------------------- */
+
+/************************************************************************************
+
+MEDIA QUERIES
+
+*************************************************************************************/
+
+
+
+/* Large screens */
+
+@media only screen and (min-width : 1680px) {
+
+
+
+}
+
+
+
+/* Tablet Landscape */
+
+ @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+
+
+
+}
+
+
+/* for 980px or less */
+
+@media screen and (max-width: 1200px) {
+	
+	
+    ul.getbwp-time-slots-available-list li{ width:25%;}
+    .getbwp-sect .getbwp-staff .getbwp-staff-left ul{ width: 850px;}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+/* for 980px or less */
+
+@media screen and (max-width: 1000px) {
+	
+	
+		ul.getbwp-time-slots-available-list li{ width:25%;}
+        .getbwp-sect .getbwp-staff .getbwp-staff-left ul{ width: 780px;}
+	
+	
+	
+
+	
+
+}
+
+
+/* Smaller than 960px */
+
+@media only screen and (max-width: 959px) {	
+
+
+
+}
+
+
+
+/* MAX 800px */
+
+
+
+@media only screen and (max-width: 800px){
+	
+	
+	ul.getbwp-time-slots-available-list li{ width:48%;}
+    .getbwp-sect .getbwp-staff .getbwp-staff-left ul{ width: 650px;}
+
+    .getbwp-top-main-bar .getbwp-top-main-texts ul li{
+
+        width: auto;
+            
+    }
+
+    .getbwp-top-main-bar .getbwp-top-main-texts ul li a{
+
+        font-size: 11px;
+    }
+
+    .getbwp-top-main-bar .getbwp-top-main-texts ul li a p{
+
+        font-size: 8px;
+    }
+
+
+
+}
+
+
+
+/* for 750px or less */
+
+@media only screen and (max-width: 750px) {
+
+    
+	
+
+	
+	
+
+}
+
+@media only screen and (max-width: 620px) {
+	
+	
+	
+	
+	
+
+
+}
+
+/*  GO FULL WIDTH AT LESS THAN 580 PIXELS */
+
+@media only screen and (max-width: 580px) {
+
+    .getbwp-sect .getbwp-staff .getbwp-staff-left ul{ width: 500px;}
+	
+	
+	
+
+
+
+}
+
+
+@media only screen and (max-width: 460px) {
+	
+	
+	ul.getbwp-time-slots-available-list li{ width:98%;}
+    .getbwp-sect .getbwp-staff .getbwp-staff-left ul{ width: 380px;}
+	
+
+	
+
+
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	
+
+
+
+}
+
+
+
+/* MAX 1440px */
+
+
+
+@media only screen and (max-width: 1440px){
+
+
+
+
+}
+
+
+
+
+
+/* MAX 1024px */
+
+
+
+@media only screen and (max-width: 1024px){
+
+
+
+}
+
+
+/* MAX 360px */
+
+
+
+@media only screen and (max-width: 320px){
+
+
+		
+
+}
